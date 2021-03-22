@@ -1,22 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <section class="container">
     <div class="page-header">
         <center><h1>Mascotas En Adopcion<br>
