@@ -22,7 +22,7 @@
                                 <li class="list-inline-item"><a href="#"><i class="icon ion-logo-facebook"></i></a></li>
                             </ul>
                         </div>
-                        <img src="assets/img/member2.jpg" class="img-fluid" alt="member 1">
+                        <img src="/assets/img/member2.jpg" class="img-fluid" alt="member 1">
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -39,7 +39,7 @@
                                 <li class="list-inline-item"><a href="#"><i class="icon ion-logo-facebook"></i></a></li>
                             </ul>
                         </div>
-                        <img src="assets/img/member3.jpg" class="img-fluid" alt="member 2">
+                        <img src="/assets/img/member3.jpg" class="img-fluid" alt="member 2">
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -56,7 +56,7 @@
                                 <li class="list-inline-item"><a href="#"><i class="icon ion-logo-facebook"></i></a></li>
                             </ul>
                         </div>
-                        <img src="assets/img/member1.jpg" class="img-fluid" alt="member 3">
+                        <img src="/assets/img/member1.jpg" class="img-fluid" alt="member 3">
                     </div>
                 </div>
             </div>

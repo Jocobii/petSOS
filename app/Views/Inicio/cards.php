@@ -16,7 +16,7 @@
                 </h2>
                 <div class="mc-content">
                     <div class="img-container">
-                        <img class="img-responsive" src="assets/img/01.jpg">
+                        <img class="img-responsive" src="/assets/img/01.jpg">
                     </div>
                     <div class="mc-description">
                     Macho talla mediana
@@ -60,7 +60,7 @@
                 </h2>
                 <div class="mc-content">
                     <div class="img-container">
-                        <img class="img-responsive" src="assets/img/02.jpg">
+                        <img class="img-responsive" src="/assets/img/02.jpg">
                     </div>
                     <div class="mc-description">
                     Macho talla mediana
@@ -94,7 +94,7 @@
                 </h2>
                 <div class="mc-content">
                     <div class="img-container">
-                        <img class="img-responsive" src="assets/img/03.jpg">
+                        <img class="img-responsive" src="/assets/img/03.jpg">
                     </div>
                     <div class="mc-description">
                     Macho talla mediana
@@ -138,7 +138,7 @@
                 </h2>
                 <div class="mc-content">
                     <div class="img-container">
-                        <img class="img-responsive" src="assets/img/04.jpg">
+                        <img class="img-responsive" src="/assets/img/04.jpg">
                     </div>
                     <div class="mc-description">
                     Macho talla mediana
@@ -182,7 +182,7 @@
                 </h2>
                 <div class="mc-content">
                     <div class="img-container">
-                        <img class="img-responsive" src="assets/img/05.jpg">
+                        <img class="img-responsive" src="/assets/img/05.jpg">
                     </div>
                     <div class="mc-description">
                     Macho talla mediana
@@ -224,7 +224,7 @@
                 </h2>
                 <div class="mc-content">
                     <div class="img-container">
-                        <img class="img-responsive" src="assets/img/06.jpg">
+                        <img class="img-responsive" src="/assets/img/06.jpg">
                     </div>
                     <div class="mc-description">
                     Macho talla mediana
@@ -268,7 +268,7 @@
                 </h2>
                 <div class="mc-content">
                     <div class="img-container">
-                        <img class="img-responsive" src="assets/img/07.jpg">
+                        <img class="img-responsive" src="/assets/img/07.jpg">
                     </div>
                     <div class="mc-description">
                     Macho talla mediana
@@ -312,7 +312,7 @@
                 </h2>
                 <div class="mc-content">
                     <div class="img-container">
-                        <img class="img-responsive" src="assets/img/08.jpg">
+                        <img class="img-responsive" src="/assets/img/08.jpg">
                     </div>
                     <div class="mc-description">
                     Macho talla mediana
@@ -356,7 +356,7 @@
                 </h2>
                 <div class="mc-content">
                     <div class="img-container">
-                        <img class="img-responsive" src="assets/img/09.jpg">
+                        <img class="img-responsive" src="/assets/img/09.jpg">
                     </div>
                     <div class="mc-description">
                     Macho talla mediana
@@ -400,7 +400,7 @@
                 </h2>
                 <div class="mc-content">
                     <div class="img-container">
-                        <img class="img-responsive" src="assets/img/10.jpg">
+                        <img class="img-responsive" src="/assets/img/10.jpg">
                     </div>
                     <div class="mc-description">
                     Macho talla mediana
@@ -444,7 +444,7 @@
                 </h2>
                 <div class="mc-content">
                     <div class="img-container">
-                        <img class="img-responsive" src="assets/img/11.jpg">
+                        <img class="img-responsive" src="/assets/img/11.jpg">
                     </div>
                     <div class="mc-description">
                     Macho talla mediana
@@ -488,7 +488,7 @@
                 </h2>
                 <div class="mc-content">
                     <div class="img-container">
-                        <img class="img-responsive" src="assets/img/12.jpg">
+                        <img class="img-responsive" src="/assets/img/12.jpg">
                     </div>
                     <div class="mc-description">
                     Macho talla mediana
