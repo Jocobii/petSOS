@@ -1,4 +1,5 @@
-<nav class="navbar navbar-expand-lg fixed-top">
+
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
             <img src="assets/images/logo-dark.png" class="logo-brand" alt="logo">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -27,26 +28,5 @@
             </div>
         </div>
     </nav>
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Inicio</a>
-                <a class="dropdown-item" href="#"> Inicio</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Inicio</a>
-              </div>
-            </li>
-             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Inicio
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Inicio</a>
-                <a class="dropdown-item" href="#">Inicio</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Inicio</a>
-              </div>
-            </li>
-            </form>
-        </div>
-      </nav>
-
+    <body>
+        <BR><BR><BR><BR>

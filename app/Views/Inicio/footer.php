@@ -3,7 +3,7 @@
             <img src="/assets/images/logo-.svg" class="logo-brand" alt="logo">
             <ul class="list-inline">
                 <li class="list-inline-item footer-menu"><a href="#">Inicio</a></li>
-                <li class="list-inline-item footer-menu"><a href="#">Adoptame</a></li>
+                <li class="list-inline-item footer-menu"><a href="#">Adptame</a></li>
                 <li class="list-inline-item footer-menu"><a href="#">Donar</a></li>
                 <li class="list-inline-item footer-menu"><a href="#">Mi Cuenta</a></li>
                 <li class="list-inline-item footer-menu"><a href="#">Contacto</a></li>
@@ -16,7 +16,7 @@
                 <li class="list-inline-item"><a href="#"><img src="/assets/images/facebook.svg" class="img-fluid"></a></li>
             </ul>
             <small>©2020 All Rights Reserved. Created by <a href="https://themesbootstrap.com.mx/" class="font-weight-bold" target="_blank"
-                    rel="noopener">PETSOS</a></small>
+                    rel="noopener">Themes Bootstrap</a></small>
         </div>
     </footer>
 
@@ -27,4 +27,4 @@
     <script src="/assets/js/bootstrap.min.js"></script>
 </body>
 
-</html> 
+</html>

@@ -34,4 +34,3 @@
     <title>Smart Agency Template | Themes Bootstrap</title>
 </head>
 
-<body>
