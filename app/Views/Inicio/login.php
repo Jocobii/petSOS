@@ -1,23 +1,24 @@
 <sect>
 <div class="cont">
     <div class="form sign-in">
+    <form action="<?= base_url()?>/iniciar_sesion" method="post">
       <h2>Iniciar Sesion</h2>
-      <label>
-        <span>Correo Electronico</span>
-        <input type="email" name="email">
-      </label>
-      <label>
-        <span>Password</span>
-        <input type="password" name="password">
-      </label>
-      <button class="submit" type="button">Iniciar</button>
-      <p class="forgot-pass">Olvidaste tu Contrasenia?</p>
+        <label>
+          <span>Correo Electronico</span>
+          <input type="text" name="usuario">
+        </label>
+        <label>
+          <span>Password</span>
+          <input type="password" name="contrasena">
+        </label>
+        <button type="submit" value="Iniciar" class="submit">Iniciar</button>
+        <p class="forgot-pass">Olvidaste tu Contrasenia?</p>
+    </form>
+      
 
       <div class="social-media">
         <ul>
           <li><img src="assets/img/facebook.png"></li>
-          <li><img src="assets/img/twitter.png"></li>
-          <li><img src="assets/img/linkedin.png"></li>
           <li><img src="assets/img/instagram.png"></li>
         </ul>
       </div>

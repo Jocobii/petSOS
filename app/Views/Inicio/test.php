@@ -13,31 +13,29 @@
 </head> 
 <body>
 <nav class="navbar navbar-expand-lg navbar-light">
-	<a class="navbar-brand" href="#">Doogo<b>APP</b></a>  		
+	<a class="navbar-brand" href="<?= base_url()?>/inicio">pet<b>SOS</b></a>  		
 	<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
 		<span class="navbar-toggler-icon"></span>
 	</button>
 	<!-- Collection of nav links, forms, and other content for toggling -->
 	<div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
 		<div class="navbar-nav">
-			<a href="#" class="nav-item nav-link">Inicio</a>
-			<a href="#" class="nav-item nav-link">Galeria</a>			
-			<div class="nav-item dropdown">
-				<a href="#" class="nav-item nav-link dropdown-toggle" data-toggle="dropdown">Adopciones</a>
-				<div class="dropdown-menu">					
-					<a href="#" class="dropdown-item">Gatos</a>
-					<a href="#" class="dropdown-item">Perros</a>
-					<a href="#" class="dropdown-item">Otros..</a>
-                </div>
-            </div>
+			<a href="<?= base_url()?>/inicio" class="nav-item nav-link">Inicio</a>
+			<a href="<?= base_url()?>/galeria" class="nav-item nav-link">Galeria</a>			
+			<a href="<?= base_url()?>/adopciones" class="nav-item nav-link">Adopciones</a>
 			<a href="#" class="nav-item nav-link active">Blog</a>
-			<a href="#" class="nav-item nav-link">Contacto</a>
+			<a href="<?= base_url()?>/contacto" class="nav-item nav-link">Contacto</a>
         </div>
 		<div class="navbar-nav ml-auto">
 			<div class="navbar-form-wrapper">
             </div>
-           	<a href="#" class="nav-item nav-link">Welcome David</a>
-			<a href="#" class="nav-item nav-link"><i class="fa fa-facebook"></i></a>
+           	<a href="<?= base_url()?>/login" class="nav-item nav-link">
+			   <?php 
+			   //echo $usuario['nombre'].$usuario['apellido'];
+			   
+			   ?>
+			   </a>
+			<a href="#" class="nav-item nav-link">Imagen</a>
         </div>		
 	</div>
 </nav>

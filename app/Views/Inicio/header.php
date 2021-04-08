@@ -31,6 +31,6 @@
     <link rel="shortcut icon" href="/assets/images//favicon.png" />
     <link rel="stylesheet" href="/assets/css/popup.css">
 
-    <title>Smart Agency Template | Themes Bootstrap</title>
+    <title>petSOS</title>
 </head>
 

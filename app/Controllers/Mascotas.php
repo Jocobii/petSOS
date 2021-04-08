@@ -3,12 +3,15 @@
 namespace App\Controllers;
 use App\Models\Mascota;
 
-class Home extends BaseController
+class Mascotas extends BaseController
 {
 	public function index()
 	{
-        $mascotaModel = new MascotaModel($db);
-        
-		return view('welcome_message');
+		$Inicio =
+        view('inicio/header').
+		view('inicio/test').
+		view('inicio/cards').
+		view('inicio/footer');
+		return $Inicio;
 	}
 }
