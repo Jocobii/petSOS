@@ -13,10 +13,10 @@
 
     <!-- Style -->
     <link rel="stylesheet" href="assets/css/styles.css">
-
+     
     <!-- Cards -->
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'>
-    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'><link rel="stylesheet" href="assets/css/cards.css">
+    
     <link rel="stylesheet" href="assets/css/cards.css">
     <!-- partial -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="assets/js/card.js"></script>
@@ -34,4 +34,3 @@
     <title>Smart Agency Template | Themes Bootstrap</title>
 </head>
 
-<body>

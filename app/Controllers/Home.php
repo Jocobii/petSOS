@@ -6,10 +6,12 @@ class Home extends BaseController
 {
 	public function index()
 	{
-		return view('login');
-	}
-	public function inicio()
-	{
-		return view('inicio');
+		$Inicio =
+        view('inicio/header').
+        view('inicio/test').
+        view('inicio/contact').
+        view('inicio/footer');
+		return $Inicio ;
+	
 	}
 }
