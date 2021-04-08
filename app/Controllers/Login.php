@@ -30,7 +30,7 @@ class Login extends BaseController
 
 		if($data != null){
 			
-			//$session = session();
+			$session = session();
 			//$session->destroy();
 			$data = [
 				"id" => $data[0]['id'],
@@ -39,23 +39,35 @@ class Login extends BaseController
 				"apellido" => $data[0]['apellido'],
 				"correo" => $data[0]['correo'],
 				"contrasena" => $data[0]['contrasena'],
+				"imagen" => $data[0]['imagen'],
 				"tipo_usuario" => $data[0]['tipo_usuario'],
+				"celular" => $data[0]['celular'],
+				"telefono" => $data[0]['telefono'],
+				"fecha_ingreso" => $data[0]['fecha_ingreso']
 
 			];
-			$session->set($data);
 			
+			$session->set($data);
+				
 			$Inicio = 
 				view('inicio/header').
-				view('inicio/test',array(
-					'usuario' => $data
-				)).
+				view('inicio/test').
 				view('inicio/inicio').
 				view('inicio/footer',);
-				return $Inicio ;			
+				return $Inicio;
+						
 		}else{
 			
 			return redirect()->to(base_url('/'));
 		}
 		
+	}
+
+	
+
+	public function salir(){
+		$session = session();
+		$session -> destroy();
+		return redirect() -> to (base_url('/inicio'));
 	}
 }

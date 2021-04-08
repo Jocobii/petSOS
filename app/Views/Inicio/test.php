@@ -29,13 +29,18 @@
 		<div class="navbar-nav ml-auto">
 			<div class="navbar-form-wrapper">
             </div>
-           	<a href="<?= base_url()?>/login" class="nav-item nav-link">
-			   <?php 
-			   //echo $usuario['nombre'].$usuario['apellido'];
-			   
+
+			
+			<a href="<?= base_url()?>/perfil" class="nav-item nav-link"><?php echo session('imagen');?></a>
+           	<a href="<?= base_url()?>/perfil" class="nav-item nav-link">
+			   <?php
+			   		echo session('nombre');
+					echo session('apellido');
 			   ?>
-			   </a>
-			<a href="#" class="nav-item nav-link">Imagen</a>
-        </div>		
+			</a>
+			<a href="<?= base_url()?>/login" class="nav-item nav-link">Login</a>
+			<a href="<?= base_url()?>/salir" class="nav-item nav-link">Salir</a>
+			
+		</div>		
 	</div>
 </nav>

@@ -1,4 +1,6 @@
 <sect>
+
+
 <div class="container">
     <div class="main-body">
     <link rel="stylesheet" href="assets/css/profile.css">
@@ -20,7 +22,7 @@
                   <div class="d-flex flex-column align-items-center text-center">
                     <img src="assets/img/member1.jpg" alt="Admin" class="rounded-circle" width="150">
                     <div class="mt-3">
-                      <h4>John Doe</h4>
+                      <h4> <?=session('nombre')." ".session('apellido');?></h4>
                       <p class="text-secondary mb-1">Rescatista</p>
                       <p class="text-muted font-size-sm">Bay Area, La Ching, CA</p>
                       <button class="btn btn-primary">Posts</button>
@@ -41,7 +43,7 @@
                   </li>
                   <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
                     <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter mr-2 icon-inline text-info"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>Fecha de Ingreso</h6>
-                    <span class="text-secondary">14/Enero/2011</span>
+                    <span class="text-secondary"> <?=session('fecha_ingreso');?></span>
                   </li>
                   <!---<li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
                     <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram mr-2 icon-inline text-danger"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>Instagram</h6>
@@ -61,11 +63,9 @@
                 <div class="card-body">
                   <div class="row">
                     <div class="col-sm-3">
-                      <h6 class="mb-0">Nombre</h6>
+                      <h6 class="mb-0"></h6>
                     </div>
-                    <div class="col-sm-9 text-secondary">
-                      David Perez
-                    </div>
+                    
                   </div>
                   <hr>
                   <div class="row">
@@ -73,7 +73,7 @@
                       <h6 class="mb-0">Correo</h6>
                     </div>
                     <div class="col-sm-9 text-secondary">
-                      david_45@jukmuh.al
+                    <?=session('correo');?>
                     </div>
                   </div>
                   <hr>
@@ -82,7 +82,7 @@
                       <h6 class="mb-0">Telefono</h6>
                     </div>
                     <div class="col-sm-9 text-secondary">
-                      (664) 816-9029
+                      <?=session('telefono');?>
                     </div>
                   </div>
                   <hr>
@@ -91,7 +91,7 @@
                       <h6 class="mb-0">Celular</h6>
                     </div>
                     <div class="col-sm-9 text-secondary">
-                      (664) 380-4539
+                    <?=session('celular');?>
                     </div>
                   </div>
                   <hr>
@@ -100,7 +100,12 @@
                       <h6 class="mb-0">Direccion</h6>
                     </div>
                     <div class="col-sm-9 text-secondary">
-                      Bay Area, La Chin, CA
+                      <?php foreach($direccion as $direcciones)
+                        if($direcciones['id_usuario'] == session('id')){
+                          echo $direcciones['calle']." " .$direcciones['colonia']." "
+                          .$direcciones['codigo_postal'];
+                        }
+                      ?>
                     </div>
                   </div>
                 </div>
