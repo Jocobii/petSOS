@@ -30,7 +30,8 @@
 			<div class="navbar-form-wrapper">
             </div>
 
-			
+			<?php
+			if(session('nombre')!=null && session('apellido')!=null): ?>
 			<a href="<?= base_url()?>/perfil" class="nav-item nav-link"><?php echo session('imagen');?></a>
            	<a href="<?= base_url()?>/perfil" class="nav-item nav-link">
 			   <?php
@@ -38,9 +39,10 @@
 					echo session('apellido');
 			   ?>
 			</a>
-			<a href="<?= base_url()?>/login" class="nav-item nav-link">Login</a>
 			<a href="<?= base_url()?>/salir" class="nav-item nav-link">Salir</a>
-			
+			<?php else:?>
+			<a href="<?= base_url()?>/login" class="nav-item nav-link">Login</a>
+			<?php endif;?>
 		</div>		
 	</div>
 </nav>
