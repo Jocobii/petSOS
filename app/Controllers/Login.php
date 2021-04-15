@@ -14,6 +14,7 @@ class Login extends BaseController
         view('inicio/login').
         view('inicio/footer');
 		return $Inicio ;
+		
 	}
 
 

@@ -9,7 +9,7 @@ class MascotaModel extends Model{
     protected $useAutoIncrement = true;
 
     protected $returnType     = 'array';
-    protected $useSoftDeletes = true;
+
 
     protected $allowedFields = ['name', 'edad','genero','descripcion','imagen','raza_id','user_id'];
 
