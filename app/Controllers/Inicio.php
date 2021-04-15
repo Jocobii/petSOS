@@ -8,10 +8,13 @@ class Inicio extends BaseController
 	public function inicio()
 	{
 		$Inicio =
-			view('inicio/header').
-        	view('inicio/test').
-			view('inicio/inicio').
-			view('inicio/footer');
+		view('inicio/header').
+		view('inicio/test').
+		view('inicio/carrosel').
+		view('inicio/video').
+		view('inicio/blog').
+		view('inicio/minifooter').
+		view('inicio/footer');
 			return $Inicio ;
 	
 	}
@@ -20,8 +23,9 @@ class Inicio extends BaseController
 		
 		$Inicio =
 			view('inicio/header').
-			view('inicio/navbar').
+			view('inicio/test').
 			view('inicio/login').
+			view('inicio/minifooter').
 			view('inicio/footer');
 			return $Inicio ;
 	}

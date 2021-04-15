@@ -11,6 +11,7 @@ class Galeria extends BaseController
         view('inicio/header').
         view('inicio/test').
         view('inicio/gallery').
+		view('inicio/minifooter').
         view('inicio/footer');
 		return $Inicio ;
 	}

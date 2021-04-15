@@ -12,6 +12,7 @@ class Login extends BaseController
         view('inicio/header').
         view('inicio/test').
         view('inicio/login').
+		view('inicio/minifooter').
         view('inicio/footer');
 		return $Inicio ;
 		
@@ -54,6 +55,7 @@ class Login extends BaseController
 				view('inicio/header').
 				view('inicio/test').
 				view('inicio/inicio').
+				view('inicio/minifooter').
 				view('inicio/footer',);
 				return $Inicio;
 						
