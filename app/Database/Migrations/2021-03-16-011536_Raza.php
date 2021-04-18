@@ -10,13 +10,13 @@ class Raza extends Migration
 	{
 		$this->db->disableForeignKeyChecks();
 		$this->forge->addField([
-			'id'          => [
+			'raza_id'          => [
 					'type'           => 'INT',
 					'constraint'     => 5,
 					'unsigned'       => true,
 					'auto_increment' => true,
 			],
-			'nombre'       => [
+			'raza_nombre'       => [
 					'type'       => 'VARCHAR',
 					'constraint' => '100',
 			],
@@ -27,8 +27,8 @@ class Raza extends Migration
 					'null' => false,
 			],
 	]);
-	$this->forge->addKey('id', true);
-	$this->forge->addForeignKey('tipo_mascota','tipomascota','id');
+	$this->forge->addKey('raza_id', true);
+	$this->forge->addForeignKey('tipo_mascota','tipomascota','tipoMascota_id');
 	$this->forge->createTable('raza');
 	
 	$this->db->enableForeignKeyChecks();

@@ -31,8 +31,8 @@ class Apoyosolicitudinvolucrados extends Migration
 		],
 	]);
 		$this->forge->addKey('id', true);
-		$this->forge->addForeignKey('usuario_remitente','usuario','id');
-		$this->forge->addForeignKey('usuario_destinatario','usuario','id');
+		$this->forge->addForeignKey('usuario_remitente','usuario','usuario_id');
+		$this->forge->addForeignKey('usuario_destinatario','usuario','usuario_id');
 		$this->forge->createTable('apoyosolicitudinvolucrados');
 		$this->db->enableForeignKeyChecks();
 		

@@ -14,15 +14,15 @@
 
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <p id="idPet">
-                    <?= $mascota['id'] ?>
+                    <?= $mascota['mascota_id'] ?>
                 </p>
 
                 <article class="material-card Red">
                     <h2>
-                        <span><?= $mascota['nombre'] ?></span>
+                        <span><?= $mascota['nombre_mascota'] ?></span>
                         <strong>
                             <i class="fa fa-fw fa-star"></i>
-                            <?= $mascota['estado'] ?>
+                            <?= $mascota['mascota_estado'] ?>
                         </strong>
                     </h2>
                     <div class="mc-content">
@@ -30,7 +30,7 @@
                             <img class="img-responsive" src="assets/img/01.jpg">
                         </div>
                         <div class="mc-description">
-                            <?= $mascota['descripcion'] ?>
+                            <?= $mascota['mascota_descripcion'] ?>
                         </div>
                     </div>
                     <a class="mc-btn-action">
@@ -55,16 +55,17 @@
                         <a class="fa fa-fw ">120</a>
                         <a class="fa fa-fw ">A</a>
 
-                            <input id="botonAdoptar" onClick="location.href='<?= base_url() ?>/Mascotas/formularioMascota/<?= $mascota['id'] ?>'" type="submit" value="Adoptar" class="btn btn-success"></input>
-                                
+                        <input id="botonAdoptar" onClick="location.href='<?= base_url() ?>/Mascotas/perfilMascota/<?= $mascota['mascota_id'] ?>'" type="submit" value="Adoptar" class="btn btn-success">
+
+                        </input>
+
 
                     </div>
                 </article>
             </div>
 
         <?php endforeach; ?>
-        <!---Terminar la funcion ppara aceptar un id en especifico---->
-        </article>
+
     </div>
     </div>
 </section>

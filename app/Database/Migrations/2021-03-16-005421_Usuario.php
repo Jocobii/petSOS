@@ -11,7 +11,7 @@ class Usuario extends Migration
 		$this->db->disableForeignKeyChecks();
 
 		$this->forge->addField([
-			'id'          => [
+			'usuario_id'          => [
 					'type'           => 'INT',
 					'constraint'     => 5,
 					'unsigned'       => true,
@@ -55,8 +55,8 @@ class Usuario extends Migration
 				'null' => true,
 			],
 	]);
-		$this->forge->addKey('id', true);
-		$this->forge->addForeignKey('tipo_usuario','tipousuario','id');
+		$this->forge->addKey('usuario_id', true);
+		$this->forge->addForeignKey('tipo_usuario','tipousuario','tipoUsuario_id');
 		$this->forge->createTable('usuario');
 
 		$this->db->enableForeignKeyChecks();

@@ -43,6 +43,7 @@ $routes->get('/login', 'Login::index');
 $routes->get('/login', 'Login::iniciar_sesion');
 $routes->get('/adopciones', 'Mascotas::index');
 $routes->get('/salir', 'Login::salir');
+$routes->get('/', 'Inicio::inicio');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

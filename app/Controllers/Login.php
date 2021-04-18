@@ -35,7 +35,7 @@ class Login extends BaseController
 			$session = session();
 			//$session->destroy();
 			$data = [
-				"id" => $data[0]['id'],
+				"usuario_id" => $data[0]['usuario_id'],
 				"usuario" => $data[0]['nombre_usuario'],
 				"nombre" => $data[0]['nombre'],
 				"apellido" => $data[0]['apellido'],
@@ -45,18 +45,20 @@ class Login extends BaseController
 				"tipo_usuario" => $data[0]['tipo_usuario'],
 				"celular" => $data[0]['celular'],
 				"telefono" => $data[0]['telefono'],
-				"fecha_ingreso" => $data[0]['fecha_ingreso']
+				"fecha_ingreso" => $data[0]['fecha_registro']
 
 			];
 			
 			$session->set($data);
 				
 			$Inicio = 
-				view('inicio/header').
-				view('inicio/test').
-				view('inicio/inicio').
-				view('inicio/minifooter').
-				view('inicio/footer',);
+			view('inicio/header').
+			view('inicio/test').
+			view('inicio/carrosel').
+			view('inicio/video').
+			view('inicio/blog').
+			view('inicio/minifooter').
+			view('inicio/footer');
 				return $Inicio;
 						
 		}else{

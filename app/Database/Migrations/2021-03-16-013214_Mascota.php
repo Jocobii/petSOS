@@ -10,29 +10,29 @@ class Mascota extends Migration
 	{
 		$this->db->disableForeignKeyChecks();
 		$this->forge->addField([
-			'id'          => [
+			'mascota_id'          => [
 					'type'           => 'INT',
 					'constraint'     => 5,
 					'unsigned'       => true,
 					'auto_increment' => true,
 			],
-			'nombre'       => [
+			'nombre_mascota'       => [
 					'type'       => 'VARCHAR',
 					'constraint' => '30',
 			],
-			'edad' => [
+			'mascota_edad' => [
 					'type' => 'INT',
 					'constraint'     => 5,
 					'null' => true,
 			],
-			'genero'       => [
+			'mascota_genero'       => [
 				'type'       => 'CHAR',
 				'constraint' => '1',
 			],
-			'descripcion'       => [
+			'mascota_descripcion'       => [
 				'type'       => 'TEXT',
 			],
-			'imagen'       => [
+			'mascota_imagen'       => [
 				'type'       => 'VARCHAR',
 				'constraint' => '100',
 			],
@@ -47,27 +47,27 @@ class Mascota extends Migration
 					'unsigned'       => true,
 					'null' => false,
 			],
-			'estado'       => [
+			'mascota_estado'       => [
 				'type'       => 'VARCHAR',
 				'constraint' => '15',
 				'null' => true,
 			],
-			'tamano'       => [
+			'mascota_tamano'       => [
 				'type'       => 'VARCHAR',
 				'constraint' => '15',
 				'null' => true,
 			],
 			
 	]);
-	$this->forge->addKey('id', true);
-	$this->forge->addForeignKey('raza_id','raza','id');
-	$this->forge->addForeignKey('usuario_id','usuario','id');
-	$this->forge->createTable('adopcionsolicitud');
+	$this->forge->addKey('mascota_id', true);
+	$this->forge->addForeignKey('raza_id','raza','raza_id');
+	$this->forge->addForeignKey('usuario_id','usuario','usuario_id');
+	$this->forge->createTable('mascota');
 	$this->db->enableForeignKeyChecks();
 	}
 
 	public function down()
 	{
-		$this->forge->dropTable('adopcionsolicitud');
+		$this->forge->dropTable('mascota');
 	}
 }

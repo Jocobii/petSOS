@@ -47,7 +47,7 @@ class Apoyosolicitud extends Migration
 		$this->forge->addKey('id', true);
 		$this->forge->addForeignKey('apoyosolicitudinvolucrados','apoyosolicitudinvolucrados','id');
 		$this->forge->addForeignKey('tipoapoyo','tipoapoyo','id');
-		$this->forge->addForeignKey('mascota','mascota','id');
+		$this->forge->addForeignKey('mascota','mascota','mascota_id');
 		$this->forge->addForeignKey('solicitud_estado','solicitudestado','id');
 		$this->forge->createTable('apoyosolicitud');
 		$this->db->enableForeignKeyChecks();

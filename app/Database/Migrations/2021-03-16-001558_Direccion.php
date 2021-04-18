@@ -8,8 +8,9 @@ class Direccion extends Migration
 {
 	public function up()
 	{
+		$this->db->disableForeignKeyChecks();
 		$this->forge->addField([
-			'id'          => [
+			'direccion_id'          => [
 					'type'           => 'INT',
 					'constraint'     => 5,
 					'unsigned'       => true,
@@ -41,10 +42,18 @@ class Direccion extends Migration
 				'constraint' => '30',
 				'null' => false,
 			],
+			'usuario_id'       => [
+				'type'           => 'INT',
+					'constraint'     => 5,
+					'unsigned'       => true,
+					'null' => false,
+			],
 
 	]);
-		$this->forge->addKey('id', true);
+		$this->forge->addKey('direccion_id', true);
+		$this->forge->addForeignKey('usuario_id','usuario','usuario_id');
 		$this->forge->createTable('direccion');
+		$this->db->enableForeignKeyChecks();
 	}
 
 	public function down()

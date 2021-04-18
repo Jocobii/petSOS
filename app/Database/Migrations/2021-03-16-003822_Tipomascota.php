@@ -9,20 +9,20 @@ class Tipomascota extends Migration
 	public function up()
 	{
 		$this->forge->addField([
-			'id'          => [
+			'tipoMascota_id'          => [
 					'type'           => 'INT',
 					'constraint'     => 5,
 					'unsigned'       => true,
 					'auto_increment' => true,
 					'null' => false,
 			],
-			'nombre'       => [
+			'tipoMascota_nombre'       => [
 					'type'       => 'VARCHAR',
 					'constraint' => '30',
 					'null' => false,
 			],
 	]);
-		$this->forge->addKey('id', true);
+		$this->forge->addKey('tipoMascota_id', true);
 		$this->forge->createTable('tipomascota');
 	}
 

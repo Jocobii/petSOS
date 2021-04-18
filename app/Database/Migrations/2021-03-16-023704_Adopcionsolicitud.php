@@ -66,10 +66,10 @@ class Adopcionsolicitud extends Migration
 	]);
 	$this->forge->addKey('id', true);
 	$this->forge->addForeignKey('tipo_vivienda','tipovivienda','id');
-	$this->forge->addForeignKey('mascota_id','mascota','id');
-	$this->forge->addForeignKey('usuario_id','usuario','id');
-	$this->forge->addForeignKey('propietario_id','usuario','id');
-	$this->forge->addForeignKey('direccion_id','direccion','id');
+	$this->forge->addForeignKey('mascota_id','mascota','mascota_id');
+	$this->forge->addForeignKey('usuario_id','usuario','usuario_id');
+	$this->forge->addForeignKey('propietario_id','usuario','usuario_id');
+	$this->forge->addForeignKey('direccion_id','direccion','direccion_id');
 
 	$this->forge->createTable('adopcionsolicitud');
 	$this->db->enableForeignKeyChecks();
