@@ -14,7 +14,7 @@ class Mascotas extends BaseController
         view('inicio/header').
 		view('inicio/test').
 		view('inicio/cards',array('mascotas' =>$mascotas )).
-		view('inicio/footer');
+		view('inicio/footer2');
 		return $Inicio;
 	}
 	public function perfilMascota($idmascota)

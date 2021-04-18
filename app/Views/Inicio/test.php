@@ -18,12 +18,12 @@
 		<span class="navbar-toggler-icon"></span>
 	</button>
 	<!-- Collection of nav links, forms, and other content for toggling -->
-	<div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
+	<div id="navbarCollapse" class="collapse navbar-collapse justify-content-start" id="home">
 		<div class="navbar-nav">
 			<a href="<?= base_url()?>/inicio" class="nav-item nav-link">Inicio</a>
 			<a href="<?= base_url()?>/galeria" class="nav-item nav-link">Galeria</a>			
 			<a href="<?= base_url()?>/adopciones" class="nav-item nav-link">Adopciones</a>
-			<a href="#" class="nav-item nav-link active">Blog</a>
+			<a href="<?= base_url()?>/blog" class="nav-item nav-link active">Blog</a>
 			<a href="<?= base_url()?>/contacto" class="nav-item nav-link">Contacto</a>
         </div>
 		<div class="navbar-nav ml-auto">

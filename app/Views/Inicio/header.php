@@ -11,7 +11,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="Diego Velázquez">
     <meta name="description" content="Smart Agency is a one page responsive Bootstrap 4 template. This is a free open source theme, you can use our theme for any purpose, even commercially. Create amazing websites with this easy to customize template.">
+    <script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
 
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
@@ -32,7 +40,10 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/images//favicon.png" />
     <link rel="stylesheet" href="<?= base_url() ?>/assets/css/popup.css">
-
+    <link rel="stylesheet" href="<?= base_url() ?>/assets/css/blog.css" type="text/css" media="all" />
+    <!-- Blog-CSS -->
+	<link rel="stylesheet" href="<?= base_url() ?>/assets/css/style2.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="<?= base_url() ?>/assets/css/bootstrap.css">
     <title>Smart Agency Template | Themes Bootstrap</title>
 
 

@@ -44,6 +44,11 @@ $routes->get('/login', 'Login::iniciar_sesion');
 $routes->get('/adopciones', 'Mascotas::index');
 $routes->get('/salir', 'Login::salir');
 $routes->get('/', 'Inicio::inicio');
+$routes->get('/blog', 'Blog::index');
+$routes->get('/single2', 'Blog::single2');
+$routes->get('/single', 'Blog::single');
+$routes->get('/single3', 'Blog::single3');
+$routes->get('/bloga', 'Blog::bloga');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
