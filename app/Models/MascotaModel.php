@@ -11,7 +11,7 @@ class MascotaModel extends Model{
     protected $returnType     = 'array';
 
 
-    protected $allowedFields = ['nombre_mascota', 'edad','genero','descripcion','imagen','raza_id','user_id'];
+    protected $allowedFields = ['nombre_mascota', 'edad','genero','descripcion','imagen','raza_id','user_id','tipo_mascota'];
 
 
 }

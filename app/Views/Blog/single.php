@@ -122,7 +122,7 @@
 							</form>
 						</div>
 						<div class="categories my-5">
-							<h3 class="blog-title text-bl mb-4">Categoria</h3>
+							<h3 class="blog-title text-bl mb-4">Categorias</h3>
 							<ul class="list-unstyled">
 								<li class="border-bottom mb-3 pb-2">
 									<a href="<?= base_url() ?>/bloga" class="text-cati">Aseo </a>
@@ -133,11 +133,11 @@
 									<span class="fa fa-caret-right float-right text-right"></span>
 								</li>
 								<li class="border-bottom mb-3 pb-2">
-									<a href="blogcuidado.html" class="text-cati">Cuidado veterinario </a>
+									<a href="<?= base_url() ?>/blogc" class="text-cati">Cuidado de veterinario </a>
 									<span class="fa fa-caret-right float-right text-right"></span>
 								</li>
 								<li>
-									<a href="blogadopcion.html" class="text-cati">Adopcion </a>
+									<a href="<?= base_url() ?>/blogad" class="text-cati">Adopcion </a>
 									<span class="fa fa-caret-right float-right text-right"></span>
 								</li>
 							</ul>

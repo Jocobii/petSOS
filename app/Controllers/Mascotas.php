@@ -17,6 +17,18 @@ class Mascotas extends BaseController
 		view('inicio/footer2');
 		return $Inicio;
 	}
+	public function viewMascota($idcategoria)
+	{
+		$mascota=new MascotaModel();
+		$mascotas= $mascota->findAll();
+		$Inicio =
+        view('inicio/header').
+		view('inicio/test').
+		view('inicio/cards',array('mascotas' =>$mascotas,
+		'idcategoria'=>$idcategoria )).
+		view('inicio/footer2');
+		return $Inicio;
+	}
 	public function perfilMascota($idmascota)
 	{
 		$mascota1 = new MascotaModel();
@@ -35,7 +47,7 @@ class Mascotas extends BaseController
 			'idMascotaSelect' => $idmascota
 			
 		)).
-		view('inicio/footer');
+		view('inicio/footer2');
 		return $Inicio;
 	}
 
@@ -50,5 +62,11 @@ class Mascotas extends BaseController
 
 		$mascotaDatosCompletos = $builder->get();
 		return $mascotaDatosCompletos->getResultArray();
+	}
+	public function buscar(){
+		$model = new MascotaModel();
+		$request=\Config\Services::request();
+		$id = $request->getPost('id');
+		echo json_encode($model->find($id));
 	}
 }

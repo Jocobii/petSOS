@@ -21,15 +21,15 @@
 		}
 	</script>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/css/bootstrap.min.css">
 
     
     <!-- Cards -->
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'>
     
-    <link rel="stylesheet" href="assets/css/cards.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/assets/css/cards.css">
     <!-- partial -->
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="assets/js/card.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="<?= base_url() ?>/assets/js/card.js"></script>
 
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
@@ -53,10 +53,10 @@
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
     <title>Casa</title>
-    <link rel="stylesheet" href="assets/css/carrosel1.css" media="screen">
-    <link rel="stylesheet" href="assets/css/carrosel.css" media="screen">
-    <script class="u-script" type="text/javascript" src="assets/js/carrosel.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="assets/js/carrosel1.js" defer=""></script>
+    <link rel="stylesheet" href="<?= base_url() ?>/assets/css/carrosel1.css" media="screen">
+    <link rel="stylesheet" href="<?= base_url() ?>/assets/css/carrosel.css" media="screen">
+    <script class="u-script" type="text/javascript" src="<?= base_url() ?>/assets/js/carrosel.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="<?= base_url() ?>/assets/js/carrosel1.js" defer=""></script>
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
 

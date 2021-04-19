@@ -1,90 +1,24 @@
-
-	<!-- blog -->
-	<div class="blog-w3l py-5">
+<!-- single -->
+<div class="blog-w3l py-5">
 		<div class="container py-xl-5 py-lg-3">
-			<h3 class="title-w3 text-bl text-center font-weight-bold mb-sm-5 mb-4">Nuestro Blog</h3>
+			<h3 class="title-w3 text-bl text-center font-weight-bold mb-sm-5 mb-4">Detalle del blog</h3>
 			<div class="row blog-content pt-lg-3">
 				<!-- left side -->
 				<div class="col-lg-8 blog_section">
 					<div class="card border-0">
 						<a href="single.html">
-							<img class="card-img-top" src="<?= base_url() ?>/assets/images/blog1.jpg" alt="">
+							<img class="card-img-top" src="<?= base_url() ?>/assets/images/AD3.jpg" alt="">
 						</a>
 						<div class="card-body">
 							<div class="row border-bottom pb-3">
 								<div class="col-sm-6 col-4 perso-wthree">
 									<h6 class="blog-first text-bl">
-										<span class="fa fa-user mr-2"></span>Adrian Lie
+										<span class="fa fa-user mr-2"></span>Bob Fra
 									</h6>
 								</div>
 								<div class="col-sm-6 col-8 info-commt text-right">
 									<ul class="blog_list">
-										<li>Oct 16, 2019</li>
-										<li class="mx-3">
-											<a href="#">
-												<span class="fa fa-heart-o mr-1"></span>30
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<span class="fa fa-comments-o mr-1"></span>18
-											</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<a href="single.html" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">Tipos de Adiestramiento Canino</a>
-							<p class="card-text">Los perros tienen un montón de opciones cuando se trata de su educación. Algunos aprenderán normas de comportamiento básicas para pasar tiempo con la familia, mientras que otros pueden aprender habilidades para llevar a cabo labores de búsqueda y rescate.
-                            Hay muchos diferentes tipos de entrenamiento para perros, dependiendo cuáles son sus necesidades. Estos son algunos tipos diferentes de entrenamiento del perro programas disponibles.</p>
-							<a href="<?= base_url() ?>/single2" class="btn blog-button mt-4">Leer Mas</a>
-						</div>
-					</div>
-					<div class="card border-0 my-4">
-						<a href="single.html">
-							<img class="card-img-top" src="<?= base_url() ?>/assets/images/blog2.jpg" alt="">
-						</a>
-						<div class="card-body">
-							<div class="row border-bottom pb-3">
-								<div class="col-sm-6 col-4 perso-wthree">
-									<h6 class="blog-first text-bl">
-										<span class="fa fa-user mr-2"></span>Mario Spe
-									</h6>
-								</div>
-								<div class="col-sm-6 col-8 info-commt text-right">
-									<ul class="blog_list">
-										<li>Oct 25, 2019</li>
-										<li class="mx-3">
-											<a href="#">
-												<span class="fa fa-heart-o mr-1"></span>20
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<span class="fa fa-comments-o mr-1"></span>22
-											</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<a href="single.html" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">Como Socializar a tu cachorro</a>
-							<p class="card-text">La socialización del perro con otros perros es un proceso relativamente fácil de trabajar cuando se trata de cachorros de ocho semanas de edad.</p>
-							<a href="<?= base_url() ?>/single" class="btn blog-button mt-4">Leer Mas</a>
-						</div>
-					</div>
-					<div class="card border-0">
-						<a href="single.html">
-							<img class="card-img-top" src="<?= base_url() ?>/assets/images/blog4.jpg" alt="">
-						</a>
-						<div class="card-body">
-							<div class="row border-bottom pb-3">
-								<div class="col-sm-6 col-4 perso-wthree">
-									<h6 class="blog-first text-bl">
-										<span class="fa fa-user mr-2"></span> PILAR NÚÑEZ 
-									</h6>
-								</div>
-								<div class="col-sm-6 col-8 info-commt text-right">
-									<ul class="blog_list">
-										<li>20 ABRIL, 2016</li>
+										<li>14 DE MARZO DE 2012</li>
 										<li class="mx-3">
 											<a href="#">
 												<span class="fa fa-heart-o mr-1"></span>28
@@ -98,40 +32,96 @@
 									</ul>
 								</div>
 							</div>
-							<a href="single.html" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">Cómo entrenar a tu cachorro en el departamento</a>
-							<p class="card-text">Tener a una mascota genera muchas alegrías, como jugar en el parque, acariciarlos en el sofá, hacer que jueguen con una pelota… almohadas destrozadas, “sorpresas” en el departamento...</p>
-							<a href="<?= base_url() ?>/single3" class="btn btn-primary blog-button mt-4">Leer Mas</a>
+							<a href="single.html" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">Cómo difundir tus perros y gatos en adopción por Internet</a>
+							<p class="card-text">Protectoras grandes, pequeñas y medianas, animalistas particulares, asociaciones de todo tipo… pueden sacar mucho provecho de Internet como medio para difundir animales en adopción.
+                            <br>
+                            <br>
+
+                            Haciéndolo podrán lograr, no solo adopciones y acogidas, también sobre todo concienciar sobre la problemática de abandonar, de criar sin control y de adoptar antes que comprar cachorros de raza.
+
+                            Muchos, no me atrevo a decir la mayoría, ya lo hacen con mayor o menor éxito. Hoy he decidido dejar aquí algunas recomendaciones para aprovechar lo mejor posible esa maravilla que ha revolucionado el mundo que es la Red:
+                            <br>
+                            <br>
+                           – Intenta ser breve y concreto (mejor diez líneas que treinta, la gente muchas veces va navegando o leyendo el correo con prisas) y usar un lenguaje claro sin faltas de ortografía.
+
+                            – Explica siempre bien clarito el carácter del perro: si se lleva bien con otros animales, con niños… si no ha sido testeado, dilo también. Para que una adopción salga bien es esencial decir toda la verdad y que el posible adoptante esté enterado.
+
+                            – Explica también si está acostumbrado a vivir en un piso, a controlar sus necesidades, andar de la correa.</p>
+                            <br>
+                            <br>
+                            <p>– Obviamente, los datos básicos son esenciales: edad, estado de salud, vacunas, de qué cruce de raza es su sexo y si ya está esterilizado.
+
+                            – Pon siempre la ciudad en la que está, si se enviaría a otras provincias o habría que ir a recogerle.
+
+                           – Haz buenas fotos. Una imagen vale mucho más que mil palabras en estos casos. Dos o tres fotos, alguna en la que se le vea bien la cara y otra el cuerpo, a ser posible junto a un humano (o un trozo de humano) para tener referencia de su tamaño es lo ideal. Pero no envíes fotos muy pesadas por correo.</p>
 						</div>
 					</div>
 					
-					<div aria-label="Page navigation example">
-						<ul class="pagination mt-5">
-							<li class="page-item disabled">
-								<a class="page-link" href="#" tabindex="-1">Anterior</a>
-							</li>
-							<li class="page-item">
-								<a class="page-link" href="#">1</a>
-							</li>
-							<li class="page-item">
-								<a class="page-link" href="#">2</a>
-							</li>
-							<li class="page-item">
-								<a class="page-link" href="#">3</a>
-							</li>
-							<li class="page-item">
-								<a class="page-link" href="#">Siguiente</a>
-							</li>
-						</ul>
+                    <p>– Intenta conseguir algún contacto en medios de comunicación locales (radios, televisiones, periódicos). Mándales un correo, preferiblemente personalizado en cada caso, con información bien redactada y con fotos a buena calidad (pero que no pesen más de 1 MB, ofréceselas con mejor resolución si lo desean) solo cuando entre en la protectora o asociación algún caso especialmente sangrante o denunciable. No espamees a los periodistas, manda solo los casos realmente destacables. Si llamas al medio local y eres amable te facilitarán probablemente algún correo electrónico de contacto.</p>
+                   
+					<div class="comment-top mt-5">
+						<h4>Comentario</h4>
+						<div class="media">
+							<img src="<?= base_url() ?>/assets/images/te1.jpg" alt="" class="img-fluid" />
+							<div class="media-body pt-xl-2 pl-3">
+								<h5 class="mb-2">Joseph Goh</h5>
+								<p>Cualquier tipo de formación profesional para los perros que asumir que tienen una base sólida en términos de sus habilidades básicas. Además, algunos de estos programas son adecuados para razas específicas también.</p>
+
+								<div class="media my-5">
+									<a class="d-flex pr-3" href="#">
+										<img src="<?= base_url() ?>/assets/images/te2.jpg" alt="" class="img-fluid" />
+									</a>
+									<div class="media-body pt-xl-2">
+										<h5 class="mb-2">Richard Spark</h5>
+										<p>Hola, podrias proporcionan sobre donde puede llebar a mi perro para recibir el entrenamiento basico, por favor.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="media">
+							<img src="<?= base_url() ?>/assets/images/te3.jpg" alt="" class="img-fluid" />
+							<div class="media-body  pt-xl-2 pl-3">
+								<h5 class="mb-2">Carlos Quintana</h5>
+								<p>Tienes razon los perros tiene una gran capacida y no todas las personas lo pueden notar.</p>
+							</div>
+						</div>
+						<div class="media mt-5">
+							<img src="<?= base_url() ?>/assets/images/te1.jpg" alt="" class="img-fluid" />
+							<div class="media-body  pt-xl-2 pl-3">
+								<h5 class="mb-2">Julian Perez</h5>
+								<p>Gracias, ahora entiendo la importacia de mi perro.</p>
+							</div>
+						</div>
 					</div>
-					<!-- //left side -->
+					<div class="comment-top mt-5">
+						<h4>Deja un comentario</h4>
+						<div class="comment-bottom agileinfo_mail_grid_right">
+							<form action="#" method="post">
+								<div class="form-group">
+									<input class="form-control" type="text" name="Name" placeholder="Nombre" required="">
+								</div>
+								<div class="form-group">
+									<input class="form-control" type="email" name="Email" placeholder="Correo" required="">
+								</div>
+								<div class="form-group">
+									<input class="form-control" type="text" name="Subject" placeholder="Asunto" required="">
+								</div>
+								<div class="form-group">
+									<textarea class="form-control" name="Message" placeholder="Mensaje..." required=""></textarea>
+								</div>
+								<button type="submit" class="btn btn-primary submit">Enviar</button>
+							</form>
+						</div>
+					</div>
 				</div>
+				<!-- //left side -->
 				<!-- right side -->
 				<div class="col-lg-4 event-right mt-lg-0 mt-sm-5 mt-4">
 					<div class="event-right1">
 						<div class="search1">
 							<h3 class="blog-title text-bl mb-4">Buscar</h3>
 							<form class="form-inline" action="#" method="post">
-								<input class="form-control rounded-0 mr-sm-2" type="search" placeholder="Buscar mas.." name="Search" required>
+								<input class="form-control rounded-0 mr-sm-2" type="search" placeholder="Buscar.." name="Search" required>
 								<button class="btn text-wh rounded-0 mt-3" type="submit">Buscar</button>
 							</form>
 						</div>
@@ -289,6 +279,7 @@
 								<li>
 									<a href="single.html" class="text-bl border">Acuarios</a>
 								</li>
+								
 							</ul>
 						</div>
 					</div>

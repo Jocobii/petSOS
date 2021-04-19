@@ -42,6 +42,7 @@ $routes->get('/inicio', 'Home::index');
 $routes->get('/login', 'Login::index');
 $routes->get('/login', 'Login::iniciar_sesion');
 $routes->get('/adopciones', 'Mascotas::index');
+$routes->get('/adopciones2', 'Mascotas::viewMascota');
 $routes->get('/salir', 'Login::salir');
 $routes->get('/', 'Inicio::inicio');
 $routes->get('/blog', 'Blog::index');
@@ -49,6 +50,18 @@ $routes->get('/single2', 'Blog::single2');
 $routes->get('/single', 'Blog::single');
 $routes->get('/single3', 'Blog::single3');
 $routes->get('/bloga', 'Blog::bloga');
+$routes->get('/blogsa1', 'Blog::blogsa1');
+$routes->get('/blogsa2', 'Blog::blogsa2');
+$routes->get('/blogsa3', 'Blog::blogsa3');
+$routes->get('/blogc', 'Blog::blogc');
+$routes->get('/blogc1', 'Blog::blogc1');
+$routes->get('/blogc2', 'Blog::blogc2');
+$routes->get('/blogc3', 'Blog::blogc3');
+$routes->get('/blogad', 'Blog::blogad');
+$routes->get('/blogad1', 'Blog::blogad1');
+$routes->get('/blogad2', 'Blog::blogad2');
+$routes->get('/blogad3', 'Blog::blogad3');
+$routes->get('/buscar', 'Mascota::buscar');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

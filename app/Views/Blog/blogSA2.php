@@ -1,47 +1,13 @@
-
-	<!-- blog -->
-	<div class="blog-w3l py-5">
+<!-- single -->
+<div class="blog-w3l py-5">
 		<div class="container py-xl-5 py-lg-3">
-			<h3 class="title-w3 text-bl text-center font-weight-bold mb-sm-5 mb-4">Nuestro Blog</h3>
+			<h3 class="title-w3 text-bl text-center font-weight-bold mb-sm-5 mb-4">Detalle del blog</h3>
 			<div class="row blog-content pt-lg-3">
 				<!-- left side -->
 				<div class="col-lg-8 blog_section">
 					<div class="card border-0">
 						<a href="single.html">
-							<img class="card-img-top" src="<?= base_url() ?>/assets/images/blog1.jpg" alt="">
-						</a>
-						<div class="card-body">
-							<div class="row border-bottom pb-3">
-								<div class="col-sm-6 col-4 perso-wthree">
-									<h6 class="blog-first text-bl">
-										<span class="fa fa-user mr-2"></span>Adrian Lie
-									</h6>
-								</div>
-								<div class="col-sm-6 col-8 info-commt text-right">
-									<ul class="blog_list">
-										<li>Oct 16, 2019</li>
-										<li class="mx-3">
-											<a href="#">
-												<span class="fa fa-heart-o mr-1"></span>30
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<span class="fa fa-comments-o mr-1"></span>18
-											</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<a href="single.html" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">Tipos de Adiestramiento Canino</a>
-							<p class="card-text">Los perros tienen un montón de opciones cuando se trata de su educación. Algunos aprenderán normas de comportamiento básicas para pasar tiempo con la familia, mientras que otros pueden aprender habilidades para llevar a cabo labores de búsqueda y rescate.
-                            Hay muchos diferentes tipos de entrenamiento para perros, dependiendo cuáles son sus necesidades. Estos son algunos tipos diferentes de entrenamiento del perro programas disponibles.</p>
-							<a href="<?= base_url() ?>/single2" class="btn blog-button mt-4">Leer Mas</a>
-						</div>
-					</div>
-					<div class="card border-0 my-4">
-						<a href="single.html">
-							<img class="card-img-top" src="<?= base_url() ?>/assets/images/blog2.jpg" alt="">
+							<img class="card-img-top" src="<?= base_url() ?>/assets/images/AS2.jpg" alt="">
 						</a>
 						<div class="card-body">
 							<div class="row border-bottom pb-3">
@@ -66,72 +32,96 @@
 									</ul>
 								</div>
 							</div>
-							<a href="single.html" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">Como Socializar a tu cachorro</a>
-							<p class="card-text">La socialización del perro con otros perros es un proceso relativamente fácil de trabajar cuando se trata de cachorros de ocho semanas de edad.</p>
-							<a href="<?= base_url() ?>/single" class="btn blog-button mt-4">Leer Mas</a>
-						</div>
-					</div>
-					<div class="card border-0">
-						<a href="single.html">
-							<img class="card-img-top" src="<?= base_url() ?>/assets/images/blog4.jpg" alt="">
-						</a>
-						<div class="card-body">
-							<div class="row border-bottom pb-3">
-								<div class="col-sm-6 col-4 perso-wthree">
-									<h6 class="blog-first text-bl">
-										<span class="fa fa-user mr-2"></span> PILAR NÚÑEZ 
-									</h6>
-								</div>
-								<div class="col-sm-6 col-8 info-commt text-right">
-									<ul class="blog_list">
-										<li>20 ABRIL, 2016</li>
-										<li class="mx-3">
-											<a href="#">
-												<span class="fa fa-heart-o mr-1"></span>28
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<span class="fa fa-comments-o mr-1"></span>23
-											</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<a href="single.html" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">Cómo entrenar a tu cachorro en el departamento</a>
-							<p class="card-text">Tener a una mascota genera muchas alegrías, como jugar en el parque, acariciarlos en el sofá, hacer que jueguen con una pelota… almohadas destrozadas, “sorpresas” en el departamento...</p>
-							<a href="<?= base_url() ?>/single3" class="btn btn-primary blog-button mt-4">Leer Mas</a>
+							<a href="single.html" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">Consejos para el baño de tu mascota</a>
+							<p class="card-text">El aseo de nuestra mascota se basará en saber cuándo y cómo lo cepillamos, si es aconsejable o no bañarlo y si hacen falta otros productos como son las soluciones o las espumas.
+                            <br>
+                            <br>
+
+                            En general, es bueno cepillar a nuestra mascota por el simple hecho que genera un vínculo entre ella y su dueño; también conseguimos con ello, que el animal se habitúe a que lo manipulen y a liberar el pelo muerto que queda en la piel y que provoca nudos. En animales de pelo corto podemos utilizar un paño húmedo.
+                            <br>
+                            <br>
+                            Para determinar con qué frecuencia y con qué producto debemos bañar  a nuestro perro o gato hay que tener en cuenta diferentes aspectos de nuestras mascotas, como son:</p>
+                            <br>
+                            <br>
+                            <p>Edad: cuando tenemos un cachorro de muy corta edad que todavía no está totalmente vacunado muchas veces usamos espumas secas para no tenerlo que mojar con el riesgo de que se resfríe. Una vez pasada esta época, la frecuencia del baño depende de la raza, el tipo de pelo y la convivencia que tengamos con él; es muy distinto un perro que vive todo el año en el jardín que un perro que está encima nuestro todo el día.</p>
 						</div>
 					</div>
 					
-					<div aria-label="Page navigation example">
-						<ul class="pagination mt-5">
-							<li class="page-item disabled">
-								<a class="page-link" href="#" tabindex="-1">Anterior</a>
-							</li>
-							<li class="page-item">
-								<a class="page-link" href="#">1</a>
-							</li>
-							<li class="page-item">
-								<a class="page-link" href="#">2</a>
-							</li>
-							<li class="page-item">
-								<a class="page-link" href="#">3</a>
-							</li>
-							<li class="page-item">
-								<a class="page-link" href="#">Siguiente</a>
-							</li>
-						</ul>
+					<p>Pelo: hay que diferenciar entre pelo liso, medio o duro y entre pelo corto, medio y largo. Cada gama de champús tiene el específico para cada tipo de pelo.
+                   <br>
+                   <br>
+                    Piel: el pH de la piel canina es alrededor de 7, es decir es un pH neutro, distinto del pH ácido de 5,5 a 7 de los humanos, por eso no hay que utilizar nunca los champús nuestros para bañar a la mascota por muy bueno que sea.
+                    <br>
+                    <br>
+                    Color del manto: la melanina es uno de los pigmentos que se encuentran en la piel y es el determinante del color del manto del perro. Los colores claros son más sensibles y más sucios por lo que se deberán limpiar con mayor frecuencia pero con un champú especial para ellos. Los animales albinos carecen de melanina. </p>
+					
+					<p class="my-3">Problemas o enfermedades de la piel: si el animal padece alguna enfermedad habrá que medicar esa piel con un champú especial. Muchas veces se realizan baños frecuentes, incluso a veces diarios, ya que son champús que prescribe el veterinario como tratamiento; normalmente estos productos no hacen demasiada espuma y hay que dejarlos que actúen un cierto tiempo antes de aclararlo.</p>
+					
+					
+					
+					<div class="comment-top mt-5">
+						<h4>Comentario</h4>
+						<div class="media">
+							<img src="<?= base_url() ?>/assets/images/te1.jpg" alt="" class="img-fluid" />
+							<div class="media-body pt-xl-2 pl-3">
+								<h5 class="mb-2">Joseph Goh</h5>
+								<p>Cualquier tipo de formación profesional para los perros que asumir que tienen una base sólida en términos de sus habilidades básicas. Además, algunos de estos programas son adecuados para razas específicas también.</p>
+
+								<div class="media my-5">
+									<a class="d-flex pr-3" href="#">
+										<img src="<?= base_url() ?>/assets/images/te2.jpg" alt="" class="img-fluid" />
+									</a>
+									<div class="media-body pt-xl-2">
+										<h5 class="mb-2">Richard Spark</h5>
+										<p>Hola, podrias proporcionan sobre donde puede llebar a mi perro para recibir el entrenamiento basico, por favor.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="media">
+							<img src="<?= base_url() ?>/assets/images/te3.jpg" alt="" class="img-fluid" />
+							<div class="media-body  pt-xl-2 pl-3">
+								<h5 class="mb-2">Carlos Quintana</h5>
+								<p>Tienes razon los perros tiene una gran capacida y no todas las personas lo pueden notar.</p>
+							</div>
+						</div>
+						<div class="media mt-5">
+							<img src="<?= base_url() ?>/assets/images/te1.jpg" alt="" class="img-fluid" />
+							<div class="media-body  pt-xl-2 pl-3">
+								<h5 class="mb-2">Julian Perez</h5>
+								<p>Gracias, ahora entiendo la importacia de mi perro.</p>
+							</div>
+						</div>
 					</div>
-					<!-- //left side -->
+					<div class="comment-top mt-5">
+						<h4>Deja un comentario</h4>
+						<div class="comment-bottom agileinfo_mail_grid_right">
+							<form action="#" method="post">
+								<div class="form-group">
+									<input class="form-control" type="text" name="Name" placeholder="Nombre" required="">
+								</div>
+								<div class="form-group">
+									<input class="form-control" type="email" name="Email" placeholder="Correo" required="">
+								</div>
+								<div class="form-group">
+									<input class="form-control" type="text" name="Subject" placeholder="Asunto" required="">
+								</div>
+								<div class="form-group">
+									<textarea class="form-control" name="Message" placeholder="Mensaje..." required=""></textarea>
+								</div>
+								<button type="submit" class="btn btn-primary submit">Enviar</button>
+							</form>
+						</div>
+					</div>
 				</div>
+				<!-- //left side -->
 				<!-- right side -->
 				<div class="col-lg-4 event-right mt-lg-0 mt-sm-5 mt-4">
 					<div class="event-right1">
 						<div class="search1">
 							<h3 class="blog-title text-bl mb-4">Buscar</h3>
 							<form class="form-inline" action="#" method="post">
-								<input class="form-control rounded-0 mr-sm-2" type="search" placeholder="Buscar mas.." name="Search" required>
+								<input class="form-control rounded-0 mr-sm-2" type="search" placeholder="Buscar.." name="Search" required>
 								<button class="btn text-wh rounded-0 mt-3" type="submit">Buscar</button>
 							</form>
 						</div>
@@ -289,6 +279,7 @@
 								<li>
 									<a href="single.html" class="text-bl border">Acuarios</a>
 								</li>
+								
 							</ul>
 						</div>
 					</div>

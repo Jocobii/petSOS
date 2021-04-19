@@ -34,7 +34,7 @@
 							</div>
 							<a href="#" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">LA HIGIENE DE NUESTRAS MASCOTAS</a>
 							<p class="card-text">Es importante saber que las rutinas y frecuencias de baño varían en el caso de tratarse de un perro o de un gato. En el caso del perro estos son algunos consejos a seguir.</p>
-							<a href="singleSA1.html" class="btn blog-button mt-4">Leer Mas</a>
+							<a href="<?= base_url() ?>/blogsa1" class="btn blog-button mt-4">Leer Mas</a>
 						</div>
 					</div>
 					<div class="card border-0 my-4">
@@ -66,7 +66,7 @@
 							</div>
 							<a href="single.html" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">5 Consejos para el aseo de tu mascota</a>
 							<p class="card-text">El aseo de nuestra mascota se basará en saber cuándo y cómo lo cepillamos, si es aconsejable o no bañarlo y si hacen falta otros productos como son las soluciones o las espumas.</p>
-							<a href="singleSA2.html" class="btn blog-button mt-4">Leer Mas</a>
+							<a href="<?= base_url() ?>/blogsa2" class="btn blog-button mt-4">Leer Mas</a>
 						</div>
 					</div>
 					<div class="card border-0">
@@ -98,7 +98,7 @@
 							</div>
 							<a href="single.html" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">Mascotas en casa: Consejos para mantener la casa limpia</a>
 							<p class="card-text">Es importante que nuestra mascota tenga un lugar propio donde dormir que pueda limpiarse con facilidad. Si es una cama, debe ser de materiales lavables y que no acumulen mucha suciedad fácilmente. Si tiene una caseta, la limpieza es más fácil y rápida, pues los materiales de los que están hechas están pensados para ello....</p>
-							<a href="singleSA3.html" class="btn btn-primary blog-button mt-4">Leer Mas</a>
+							<a href="<?= base_url() ?>/blogsa3" class="btn btn-primary blog-button mt-4">Leer Mas</a>
 						</div>
 					</div>
 					
@@ -145,11 +145,11 @@
 									<span class="fa fa-caret-right float-right text-right"></span>
 								</li>
 								<li class="border-bottom mb-3 pb-2">
-									<a href="blogcuidado.html" class="text-cati">Cuidado de veterinario </a>
+									<a href="<?= base_url() ?>/blogc" class="text-cati">Cuidado de veterinario </a>
 									<span class="fa fa-caret-right float-right text-right"></span>
 								</li>
 								<li>
-									<a href="blogadopcion.html" class="text-cati">Adopcion </a>
+									<a href="<?= base_url() ?>/blogad" class="text-cati">Adopcion </a>
 									<span class="fa fa-caret-right float-right text-right"></span>
 								</li>
 							</ul>

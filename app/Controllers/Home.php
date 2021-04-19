@@ -11,7 +11,7 @@ class Home extends BaseController
         view('inicio/test').
         view('inicio/contact').
 		view('inicio/minifooter').
-        view('inicio/footer');
+        view('inicio/footer2');
 		return $Inicio ;
 	
 	}

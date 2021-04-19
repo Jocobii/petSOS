@@ -1,3 +1,5 @@
+<br>
+<br>
 <?php foreach ($mascotas as $mascota) : ?>
   <?php if ($mascota['mascota_id'] == $idMascotaSelect) {
     foreach ($mascotaDatos as $mascotaD) :
@@ -5,13 +7,13 @@
   ?>
         <div class="container">
           <div class="main-body">
-            <link rel="stylesheet" href="assets/css/profile.css">
+            <link rel="stylesheet" href="<?= base_url() ?>/assets/css/profile.css">
             <div class="row gutters-sm">
               <div class="col-md-4 mb-3">
                 <div class="card">
                   <div class="card-body">
                     <div class="d-flex flex-column align-items-center text-center">
-                      <img src="<?= $mascotaD['imagen']; ?>" class="rounded-circle" width="150">
+                      <img src="<?= base_url() ?>/assets/img/<?= $mascotaD['imagen'] ?>" class="rounded-circle" width="150">
                       <div class="mt-3">
                         <h4> <?= $mascotaD['nombre']." ". $mascotaD['apellido']; ?></h4>
 
@@ -78,7 +80,7 @@
                   </div>
                   <div class="card-body">
                     <div class="d-flex flex-column align-items-center text-center">
-                      <img src="<?= $mascotaD['imagen']; ?>" class="rounded-circle" width="150">
+                      <img src="<?= base_url() ?>/assets/images/<?= $mascotaD['mascota_imagen']; ?>" class="rounded-circle" width="150">
                       <div class="mt-3">
                         <h4> <?= $mascotaD['nombre_mascota']; ?></h4>
                         <p class="text-secondary mb-1">Dia de nacimiento: <?= $mascotaD['mascota_nacimiento']; ?></p>
@@ -210,3 +212,5 @@
     break;
   } ?>
 <?php endforeach; ?>
+<br>
+<br>

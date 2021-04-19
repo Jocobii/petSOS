@@ -1,6 +1,5 @@
-
-	<!-- blog -->
-	<div class="blog-w3l py-5">
+<!-- blog -->
+<div class="blog-w3l py-5">
 		<div class="container py-xl-5 py-lg-3">
 			<h3 class="title-w3 text-bl text-center font-weight-bold mb-sm-5 mb-4">Nuestro Blog</h3>
 			<div class="row blog-content pt-lg-3">
@@ -8,7 +7,7 @@
 				<div class="col-lg-8 blog_section">
 					<div class="card border-0">
 						<a href="single.html">
-							<img class="card-img-top" src="<?= base_url() ?>/assets/images/blog1.jpg" alt="">
+							<img class="card-img-top" src="<?= base_url() ?>/assets/images/V1.jpg" alt="">
 						</a>
 						<div class="card-body">
 							<div class="row border-bottom pb-3">
@@ -33,15 +32,15 @@
 									</ul>
 								</div>
 							</div>
-							<a href="single.html" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">Tipos de Adiestramiento Canino</a>
-							<p class="card-text">Los perros tienen un montón de opciones cuando se trata de su educación. Algunos aprenderán normas de comportamiento básicas para pasar tiempo con la familia, mientras que otros pueden aprender habilidades para llevar a cabo labores de búsqueda y rescate.
-                            Hay muchos diferentes tipos de entrenamiento para perros, dependiendo cuáles son sus necesidades. Estos son algunos tipos diferentes de entrenamiento del perro programas disponibles.</p>
-							<a href="<?= base_url() ?>/single2" class="btn blog-button mt-4">Leer Mas</a>
+							<a href="#" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">¿Sufre estrés tu mascota?</a>
+							<p class="card-text">Hoy en día, muchas de nuestros animales de compañía están sometidos a factores estresantes. Si bien hay animales que están totalmente adaptados a la vida doméstica, hay otros, que por su carácter, o por no haber tenido un periodo de socialización adecuado, sufren a menudo estrés.
+                            </p>
+							<a href="<?= base_url() ?>/blogc1" class="btn blog-button mt-4">Leer Mas</a>
 						</div>
 					</div>
 					<div class="card border-0 my-4">
 						<a href="single.html">
-							<img class="card-img-top" src="<?= base_url() ?>/assets/images/blog2.jpg" alt="">
+							<img class="card-img-top" src="<?= base_url() ?>/assets/images/V2.jpg" alt="">
 						</a>
 						<div class="card-body">
 							<div class="row border-bottom pb-3">
@@ -66,25 +65,25 @@
 									</ul>
 								</div>
 							</div>
-							<a href="single.html" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">Como Socializar a tu cachorro</a>
-							<p class="card-text">La socialización del perro con otros perros es un proceso relativamente fácil de trabajar cuando se trata de cachorros de ocho semanas de edad.</p>
-							<a href="<?= base_url() ?>/single" class="btn blog-button mt-4">Leer Mas</a>
+							<a href="single.html" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">Rascadores para gato. ¡La mejor solución para afilar sus uñas!</a>
+							<p class="card-text">Afilarse las uñas es para todos los gatos lo que comer, beber o andar es para nosotros. Es una necesidad e instinto básico de estos pequeños animales que tanto nos gustan.</p>
+							<a href="<?= base_url() ?>/blogc2" class="btn blog-button mt-4">Leer Mas</a>
 						</div>
 					</div>
 					<div class="card border-0">
 						<a href="single.html">
-							<img class="card-img-top" src="<?= base_url() ?>/assets/images/blog4.jpg" alt="">
+							<img class="card-img-top" src="<?= base_url() ?>/assets/images/V3.jpg" alt="">
 						</a>
 						<div class="card-body">
 							<div class="row border-bottom pb-3">
 								<div class="col-sm-6 col-4 perso-wthree">
 									<h6 class="blog-first text-bl">
-										<span class="fa fa-user mr-2"></span> PILAR NÚÑEZ 
+										<span class="fa fa-user mr-2"></span>Bob Fra
 									</h6>
 								</div>
 								<div class="col-sm-6 col-8 info-commt text-right">
 									<ul class="blog_list">
-										<li>20 ABRIL, 2016</li>
+										<li>Feb 07, 2019</li>
 										<li class="mx-3">
 											<a href="#">
 												<span class="fa fa-heart-o mr-1"></span>28
@@ -98,9 +97,9 @@
 									</ul>
 								</div>
 							</div>
-							<a href="single.html" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">Cómo entrenar a tu cachorro en el departamento</a>
-							<p class="card-text">Tener a una mascota genera muchas alegrías, como jugar en el parque, acariciarlos en el sofá, hacer que jueguen con una pelota… almohadas destrozadas, “sorpresas” en el departamento...</p>
-							<a href="<?= base_url() ?>/single3" class="btn btn-primary blog-button mt-4">Leer Mas</a>
+							<a href="single.html" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">¿Cómo acabar con las manchas del lagrimal de nuestras mascotas?</a>
+							<p class="card-text">Las típicas manchas de tonos rojizos o marrones que se presentan sobre todo en el lagrimal de algunos perros, es un problema frecuente ante el que se encuentran muchos propietarios de mascotas.</p>
+							<a href="<?= base_url() ?>/blogc3" class="btn btn-primary blog-button mt-4">Leer Mas</a>
 						</div>
 					</div>
 					

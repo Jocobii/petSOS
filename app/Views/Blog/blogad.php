@@ -1,6 +1,5 @@
-
-	<!-- blog -->
-	<div class="blog-w3l py-5">
+<!-- blog -->
+<div class="blog-w3l py-5">
 		<div class="container py-xl-5 py-lg-3">
 			<h3 class="title-w3 text-bl text-center font-weight-bold mb-sm-5 mb-4">Nuestro Blog</h3>
 			<div class="row blog-content pt-lg-3">
@@ -8,18 +7,18 @@
 				<div class="col-lg-8 blog_section">
 					<div class="card border-0">
 						<a href="single.html">
-							<img class="card-img-top" src="<?= base_url() ?>/assets/images/blog1.jpg" alt="">
+							<img class="card-img-top" src="<?= base_url() ?>/assets/images/AD1.jpg" alt="">
 						</a>
 						<div class="card-body">
 							<div class="row border-bottom pb-3">
 								<div class="col-sm-6 col-4 perso-wthree">
 									<h6 class="blog-first text-bl">
-										<span class="fa fa-user mr-2"></span>Adrian Lie
+										<span class="fa fa-user mr-2"></span> webadmin
 									</h6>
 								</div>
 								<div class="col-sm-6 col-8 info-commt text-right">
 									<ul class="blog_list">
-										<li>Oct 16, 2019</li>
+										<li>12 julio, 2016</li>
 										<li class="mx-3">
 											<a href="#">
 												<span class="fa fa-heart-o mr-1"></span>30
@@ -33,26 +32,25 @@
 									</ul>
 								</div>
 							</div>
-							<a href="single.html" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">Tipos de Adiestramiento Canino</a>
-							<p class="card-text">Los perros tienen un montón de opciones cuando se trata de su educación. Algunos aprenderán normas de comportamiento básicas para pasar tiempo con la familia, mientras que otros pueden aprender habilidades para llevar a cabo labores de búsqueda y rescate.
-                            Hay muchos diferentes tipos de entrenamiento para perros, dependiendo cuáles son sus necesidades. Estos son algunos tipos diferentes de entrenamiento del perro programas disponibles.</p>
-							<a href="<?= base_url() ?>/single2" class="btn blog-button mt-4">Leer Mas</a>
+							<a href="#" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">Adopta un amigo, no lo compres</a>
+							<p class="card-text">“No compres, ¡adopta! Cientos de amigos esperan en calles y refugios una oportunidad”, recuerda la campaña de la asociación AnimaNaturalis, dedicada a difundir y proteger los derechos de los animales desde 2003. La amistad no tiene precio económico, según defiende esta campaña de adopciones responsables, desarrollada en España y en algunos países de Latinoamérica, como....</p>
+							<a href="<?= base_url() ?>/blogad1" class="btn blog-button mt-4">Leer Mas</a>
 						</div>
 					</div>
 					<div class="card border-0 my-4">
 						<a href="single.html">
-							<img class="card-img-top" src="<?= base_url() ?>/assets/images/blog2.jpg" alt="">
+							<img class="card-img-top" src="<?= base_url() ?>/assets/images/AD2.jpg" alt="">
 						</a>
 						<div class="card-body">
 							<div class="row border-bottom pb-3">
 								<div class="col-sm-6 col-4 perso-wthree">
 									<h6 class="blog-first text-bl">
-										<span class="fa fa-user mr-2"></span>Mario Spe
+										<span class="fa fa-user mr-2"></span> webadmin
 									</h6>
 								</div>
 								<div class="col-sm-6 col-8 info-commt text-right">
 									<ul class="blog_list">
-										<li>Oct 25, 2019</li>
+										<li>12 julio, 2016</li>
 										<li class="mx-3">
 											<a href="#">
 												<span class="fa fa-heart-o mr-1"></span>20
@@ -66,25 +64,25 @@
 									</ul>
 								</div>
 							</div>
-							<a href="single.html" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">Como Socializar a tu cachorro</a>
-							<p class="card-text">La socialización del perro con otros perros es un proceso relativamente fácil de trabajar cuando se trata de cachorros de ocho semanas de edad.</p>
-							<a href="<?= base_url() ?>/single" class="btn blog-button mt-4">Leer Mas</a>
+							<a href="single.html" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">Uno de cada diez perros se abandona</a>
+							<p class="card-text">Tras las adopciones irresponsables, llegan los abandonos. Uno de cada diez perros que llegue a las casas españolas en Navidad se abandonará durante los próximos tres meses, según un estudio de la Fundación Affinity. Los viajes y las vacaciones explican, en parte, estos crueles y penados comportamientos. La ONG Yo defiendo la vida animal ha […]</p>
+							<a href="<?= base_url() ?>/blogad2" class="btn blog-button mt-4">Leer Mas</a>
 						</div>
 					</div>
 					<div class="card border-0">
 						<a href="single.html">
-							<img class="card-img-top" src="<?= base_url() ?>/assets/images/blog4.jpg" alt="">
+							<img class="card-img-top" src="<?= base_url() ?>/assets/images/AD3.jpg" alt="">
 						</a>
 						<div class="card-body">
 							<div class="row border-bottom pb-3">
 								<div class="col-sm-6 col-4 perso-wthree">
 									<h6 class="blog-first text-bl">
-										<span class="fa fa-user mr-2"></span> PILAR NÚÑEZ 
+										<span class="fa fa-user mr-2"></span>Bob Fra
 									</h6>
 								</div>
 								<div class="col-sm-6 col-8 info-commt text-right">
 									<ul class="blog_list">
-										<li>20 ABRIL, 2016</li>
+										<li>14 DE MARZO DE 2012</li>
 										<li class="mx-3">
 											<a href="#">
 												<span class="fa fa-heart-o mr-1"></span>28
@@ -98,9 +96,9 @@
 									</ul>
 								</div>
 							</div>
-							<a href="single.html" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">Cómo entrenar a tu cachorro en el departamento</a>
-							<p class="card-text">Tener a una mascota genera muchas alegrías, como jugar en el parque, acariciarlos en el sofá, hacer que jueguen con una pelota… almohadas destrozadas, “sorpresas” en el departamento...</p>
-							<a href="<?= base_url() ?>/single3" class="btn btn-primary blog-button mt-4">Leer Mas</a>
+							<a href="single.html" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">Cómo difundir tus perros y gatos en adopción por Internet</a>
+							<p class="card-text">Protectoras grandes, pequeñas y medianas, animalistas particulares, asociaciones de todo tipo… pueden sacar mucho provecho de Internet como medio para difundir animales en adopción.....</p>
+							<a href="<?= base_url() ?>/blogad3" class="btn btn-primary blog-button mt-4">Leer Mas</a>
 						</div>
 					</div>
 					

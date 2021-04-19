@@ -1,14 +1,13 @@
-
-	<!-- blog -->
-	<div class="blog-w3l py-5">
+<!-- single -->
+<div class="blog-w3l py-5">
 		<div class="container py-xl-5 py-lg-3">
-			<h3 class="title-w3 text-bl text-center font-weight-bold mb-sm-5 mb-4">Nuestro Blog</h3>
+			<h3 class="title-w3 text-bl text-center font-weight-bold mb-sm-5 mb-4">Detalle del blog</h3>
 			<div class="row blog-content pt-lg-3">
 				<!-- left side -->
 				<div class="col-lg-8 blog_section">
 					<div class="card border-0">
 						<a href="single.html">
-							<img class="card-img-top" src="<?= base_url() ?>/assets/images/blog1.jpg" alt="">
+							<img class="card-img-top" src="<?= base_url() ?>/assets/images/V1.jpg" alt="">
 						</a>
 						<div class="card-body">
 							<div class="row border-bottom pb-3">
@@ -33,105 +32,104 @@
 									</ul>
 								</div>
 							</div>
-							<a href="single.html" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">Tipos de Adiestramiento Canino</a>
-							<p class="card-text">Los perros tienen un montón de opciones cuando se trata de su educación. Algunos aprenderán normas de comportamiento básicas para pasar tiempo con la familia, mientras que otros pueden aprender habilidades para llevar a cabo labores de búsqueda y rescate.
-                            Hay muchos diferentes tipos de entrenamiento para perros, dependiendo cuáles son sus necesidades. Estos son algunos tipos diferentes de entrenamiento del perro programas disponibles.</p>
-							<a href="<?= base_url() ?>/single2" class="btn blog-button mt-4">Leer Mas</a>
-						</div>
-					</div>
-					<div class="card border-0 my-4">
-						<a href="single.html">
-							<img class="card-img-top" src="<?= base_url() ?>/assets/images/blog2.jpg" alt="">
-						</a>
-						<div class="card-body">
-							<div class="row border-bottom pb-3">
-								<div class="col-sm-6 col-4 perso-wthree">
-									<h6 class="blog-first text-bl">
-										<span class="fa fa-user mr-2"></span>Mario Spe
-									</h6>
-								</div>
-								<div class="col-sm-6 col-8 info-commt text-right">
-									<ul class="blog_list">
-										<li>Oct 25, 2019</li>
-										<li class="mx-3">
-											<a href="#">
-												<span class="fa fa-heart-o mr-1"></span>20
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<span class="fa fa-comments-o mr-1"></span>22
-											</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<a href="single.html" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">Como Socializar a tu cachorro</a>
-							<p class="card-text">La socialización del perro con otros perros es un proceso relativamente fácil de trabajar cuando se trata de cachorros de ocho semanas de edad.</p>
-							<a href="<?= base_url() ?>/single" class="btn blog-button mt-4">Leer Mas</a>
-						</div>
-					</div>
-					<div class="card border-0">
-						<a href="single.html">
-							<img class="card-img-top" src="<?= base_url() ?>/assets/images/blog4.jpg" alt="">
-						</a>
-						<div class="card-body">
-							<div class="row border-bottom pb-3">
-								<div class="col-sm-6 col-4 perso-wthree">
-									<h6 class="blog-first text-bl">
-										<span class="fa fa-user mr-2"></span> PILAR NÚÑEZ 
-									</h6>
-								</div>
-								<div class="col-sm-6 col-8 info-commt text-right">
-									<ul class="blog_list">
-										<li>20 ABRIL, 2016</li>
-										<li class="mx-3">
-											<a href="#">
-												<span class="fa fa-heart-o mr-1"></span>28
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<span class="fa fa-comments-o mr-1"></span>23
-											</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<a href="single.html" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">Cómo entrenar a tu cachorro en el departamento</a>
-							<p class="card-text">Tener a una mascota genera muchas alegrías, como jugar en el parque, acariciarlos en el sofá, hacer que jueguen con una pelota… almohadas destrozadas, “sorpresas” en el departamento...</p>
-							<a href="<?= base_url() ?>/single3" class="btn btn-primary blog-button mt-4">Leer Mas</a>
+							<a href="single.html" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">¿Sufre estrés tu mascota?</a>
+							<p class="card-text">Hoy en día, muchas de nuestros animales de compañía están sometidos a factores estresantes. Si bien hay animales que están totalmente adaptados a la vida doméstica, hay otros, que por su carácter, o por no haber tenido un periodo de socialización adecuado, sufren a menudo estrés.
+                            <br>
+                            <br>
+
+                            El estrés prolongado, puede derivar en problemas de salud, ansiedad, y problemas de comportamiento que a menudo dificultan la convivencia y el desarrollo de las actividades normales con el animal.
+                            Hay una serie de situaciones que comúnmente estresan a la mayoría de nuestras mascotas, entre las que podemos destacar:
+                            <br>
+                            <br>Visitas al veterinario
+                            <br>Viajes
+                            <br>Ruidos fuertes tales como tormentas o explosiones
+                            <br>Personas desconocidas
+                            <br>Cambios en casa
+                            Otros animales</p>
+                            <br>
+                            <br>
+                            <p>Las mascotas que se ven desbordadas por estas situaciones pueden desarrollar comportamientos no deseados tales como: ansiedad por separación, agresividad, destrucción de mobiliario y partes de la casa, ladridos excesivos, nerviosismo y jadeo, etc.</p>
 						</div>
 					</div>
 					
-					<div aria-label="Page navigation example">
-						<ul class="pagination mt-5">
-							<li class="page-item disabled">
-								<a class="page-link" href="#" tabindex="-1">Anterior</a>
-							</li>
-							<li class="page-item">
-								<a class="page-link" href="#">1</a>
-							</li>
-							<li class="page-item">
-								<a class="page-link" href="#">2</a>
-							</li>
-							<li class="page-item">
-								<a class="page-link" href="#">3</a>
-							</li>
-							<li class="page-item">
-								<a class="page-link" href="#">Siguiente</a>
-							</li>
-						</ul>
+					<p>Para solucionar estos problemas, existen numerosas pautas de comportamiento que pueden ayudar a nuestros amigos. Aun así, hay ocasiones en las que esto no es suficiente y hay que recurrir a algún suplemento. En este post, os presentamos un nutraceútico natural, que ayuda a combatir el estrés y ansiedad en perros y gatos de todas las edades y razas.Este producto tiene una composición que ayuda a reducir el estrés en nuestras mascotas de manera natural.
+                   <br>
+                   <br>
+                    Estas sustancias ayudan a nuestros amigos a relajarse y manejar los estados de estrés y miedo que le pueden producir las situaciones anteriormente descritas.
+                    Además, tiene una serie de ventajas que hace que sea una un producto de fácil manejo y elección:
+                    <br>
+                    Se puede usar a largo plazo, ya que no tiene efectos secundarios ni provoca adicción al estar echo de compuestos totalmente naturales.
+                    <br>No produce somnolencia. Es por esto, que su utilización es segura.
+                    <br>Se comercializa en chews de alta palatabilidad. Gracias a esto, podemos hacer que la hora de tomarlo no sea traumática y se relacione con algo positivo.
+                     </p>
+					
+					<p class="my-3">A pesar de esto, no debemos suministrarlo como snack o golosinas a nuestras mascotas. Debemos seguir el consejo de nuestro veterinario si decidimos utilizar MULTIVA® Calming y respetar las dosis establecidas.</p>
+					
+					
+					
+					<div class="comment-top mt-5">
+						<h4>Comentario</h4>
+						<div class="media">
+							<img src="<?= base_url() ?>/assets/images/te1.jpg" alt="" class="img-fluid" />
+							<div class="media-body pt-xl-2 pl-3">
+								<h5 class="mb-2">Joseph Goh</h5>
+								<p>Cualquier tipo de formación profesional para los perros que asumir que tienen una base sólida en términos de sus habilidades básicas. Además, algunos de estos programas son adecuados para razas específicas también.</p>
+
+								<div class="media my-5">
+									<a class="d-flex pr-3" href="#">
+										<img src="<?= base_url() ?>/assets/images/te2.jpg" alt="" class="img-fluid" />
+									</a>
+									<div class="media-body pt-xl-2">
+										<h5 class="mb-2">Richard Spark</h5>
+										<p>Hola, podrias proporcionan sobre donde puede llebar a mi perro para recibir el entrenamiento basico, por favor.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="media">
+							<img src="<?= base_url() ?>/assets/images/te3.jpg" alt="" class="img-fluid" />
+							<div class="media-body  pt-xl-2 pl-3">
+								<h5 class="mb-2">Carlos Quintana</h5>
+								<p>Tienes razon los perros tiene una gran capacida y no todas las personas lo pueden notar.</p>
+							</div>
+						</div>
+						<div class="media mt-5">
+							<img src="<?= base_url() ?>/assets/images/te1.jpg" alt="" class="img-fluid" />
+							<div class="media-body  pt-xl-2 pl-3">
+								<h5 class="mb-2">Julian Perez</h5>
+								<p>Gracias, ahora entiendo la importacia de mi perro.</p>
+							</div>
+						</div>
 					</div>
-					<!-- //left side -->
+					<div class="comment-top mt-5">
+						<h4>Deja un comentario</h4>
+						<div class="comment-bottom agileinfo_mail_grid_right">
+							<form action="#" method="post">
+								<div class="form-group">
+									<input class="form-control" type="text" name="Name" placeholder="Nombre" required="">
+								</div>
+								<div class="form-group">
+									<input class="form-control" type="email" name="Email" placeholder="Correo" required="">
+								</div>
+								<div class="form-group">
+									<input class="form-control" type="text" name="Subject" placeholder="Asunto" required="">
+								</div>
+								<div class="form-group">
+									<textarea class="form-control" name="Message" placeholder="Mensaje..." required=""></textarea>
+								</div>
+								<button type="submit" class="btn btn-primary submit">Enviar</button>
+							</form>
+						</div>
+					</div>
 				</div>
+				<!-- //left side -->
 				<!-- right side -->
 				<div class="col-lg-4 event-right mt-lg-0 mt-sm-5 mt-4">
 					<div class="event-right1">
 						<div class="search1">
 							<h3 class="blog-title text-bl mb-4">Buscar</h3>
 							<form class="form-inline" action="#" method="post">
-								<input class="form-control rounded-0 mr-sm-2" type="search" placeholder="Buscar mas.." name="Search" required>
+								<input class="form-control rounded-0 mr-sm-2" type="search" placeholder="Buscar.." name="Search" required>
 								<button class="btn text-wh rounded-0 mt-3" type="submit">Buscar</button>
 							</form>
 						</div>
@@ -289,6 +287,7 @@
 								<li>
 									<a href="single.html" class="text-bl border">Acuarios</a>
 								</li>
+								
 							</ul>
 						</div>
 					</div>

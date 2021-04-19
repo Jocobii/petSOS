@@ -1,90 +1,24 @@
-
-	<!-- blog -->
-	<div class="blog-w3l py-5">
+<!-- single -->
+<div class="blog-w3l py-5">
 		<div class="container py-xl-5 py-lg-3">
-			<h3 class="title-w3 text-bl text-center font-weight-bold mb-sm-5 mb-4">Nuestro Blog</h3>
+			<h3 class="title-w3 text-bl text-center font-weight-bold mb-sm-5 mb-4">Detalle del blog</h3>
 			<div class="row blog-content pt-lg-3">
 				<!-- left side -->
 				<div class="col-lg-8 blog_section">
 					<div class="card border-0">
 						<a href="single.html">
-							<img class="card-img-top" src="<?= base_url() ?>/assets/images/blog1.jpg" alt="">
+							<img class="card-img-top" src="<?= base_url() ?>/assets/images/V3.jpg" alt="">
 						</a>
 						<div class="card-body">
 							<div class="row border-bottom pb-3">
 								<div class="col-sm-6 col-4 perso-wthree">
 									<h6 class="blog-first text-bl">
-										<span class="fa fa-user mr-2"></span>Adrian Lie
+										<span class="fa fa-user mr-2"></span>Bob Fra
 									</h6>
 								</div>
 								<div class="col-sm-6 col-8 info-commt text-right">
 									<ul class="blog_list">
-										<li>Oct 16, 2019</li>
-										<li class="mx-3">
-											<a href="#">
-												<span class="fa fa-heart-o mr-1"></span>30
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<span class="fa fa-comments-o mr-1"></span>18
-											</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<a href="single.html" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">Tipos de Adiestramiento Canino</a>
-							<p class="card-text">Los perros tienen un montón de opciones cuando se trata de su educación. Algunos aprenderán normas de comportamiento básicas para pasar tiempo con la familia, mientras que otros pueden aprender habilidades para llevar a cabo labores de búsqueda y rescate.
-                            Hay muchos diferentes tipos de entrenamiento para perros, dependiendo cuáles son sus necesidades. Estos son algunos tipos diferentes de entrenamiento del perro programas disponibles.</p>
-							<a href="<?= base_url() ?>/single2" class="btn blog-button mt-4">Leer Mas</a>
-						</div>
-					</div>
-					<div class="card border-0 my-4">
-						<a href="single.html">
-							<img class="card-img-top" src="<?= base_url() ?>/assets/images/blog2.jpg" alt="">
-						</a>
-						<div class="card-body">
-							<div class="row border-bottom pb-3">
-								<div class="col-sm-6 col-4 perso-wthree">
-									<h6 class="blog-first text-bl">
-										<span class="fa fa-user mr-2"></span>Mario Spe
-									</h6>
-								</div>
-								<div class="col-sm-6 col-8 info-commt text-right">
-									<ul class="blog_list">
-										<li>Oct 25, 2019</li>
-										<li class="mx-3">
-											<a href="#">
-												<span class="fa fa-heart-o mr-1"></span>20
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<span class="fa fa-comments-o mr-1"></span>22
-											</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<a href="single.html" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">Como Socializar a tu cachorro</a>
-							<p class="card-text">La socialización del perro con otros perros es un proceso relativamente fácil de trabajar cuando se trata de cachorros de ocho semanas de edad.</p>
-							<a href="<?= base_url() ?>/single" class="btn blog-button mt-4">Leer Mas</a>
-						</div>
-					</div>
-					<div class="card border-0">
-						<a href="single.html">
-							<img class="card-img-top" src="<?= base_url() ?>/assets/images/blog4.jpg" alt="">
-						</a>
-						<div class="card-body">
-							<div class="row border-bottom pb-3">
-								<div class="col-sm-6 col-4 perso-wthree">
-									<h6 class="blog-first text-bl">
-										<span class="fa fa-user mr-2"></span> PILAR NÚÑEZ 
-									</h6>
-								</div>
-								<div class="col-sm-6 col-8 info-commt text-right">
-									<ul class="blog_list">
-										<li>20 ABRIL, 2016</li>
+										<li>Feb 07, 2019</li>
 										<li class="mx-3">
 											<a href="#">
 												<span class="fa fa-heart-o mr-1"></span>28
@@ -98,40 +32,96 @@
 									</ul>
 								</div>
 							</div>
-							<a href="single.html" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">Cómo entrenar a tu cachorro en el departamento</a>
-							<p class="card-text">Tener a una mascota genera muchas alegrías, como jugar en el parque, acariciarlos en el sofá, hacer que jueguen con una pelota… almohadas destrozadas, “sorpresas” en el departamento...</p>
-							<a href="<?= base_url() ?>/single3" class="btn btn-primary blog-button mt-4">Leer Mas</a>
+							<a href="single.html" class="text-bl font-weight-bold blog-grid-title mt-4 mb-3">¿Cómo acabar con las manchas del lagrimal de nuestras mascotas?</a>
+							<p class="card-text">Las típicas manchas de tonos rojizos o marrones que se presentan sobre todo en el lagrimal de algunos perros, es un problema frecuente ante el que se encuentran muchos propietarios de mascotas.
+
+                            No es un problema grave, pero sí resulta antiestético. En ocasiones puede estar provocado por un problema o enfermedad en el animal.
+                            <br>
+                            <br>
+                            </p>
+                            <a href="single.html" class="single-text text-bl font-weight-light my-3">¿Por qué se producen?</a>
+                            <p>
+                            Las manchas que aparecen en el lagrimal son como consecuencia de un lagrimeo excesivo del ojo. Las lágrimas contienen sales minerales, que en contacto con el aire se oxidan y crean esas manchas oscuras. Si el lagrimeo es excesivo y continuo la zona se mantiene siempre húmeda y se convierte en un caldo de cultivo ideal de bacterias y hongos, que oscurecen aún más las manchas y pueden provocar infecciones.
+                            <br>
+                            <br>
+                            </p>
+                             <a href="single.html" class="single-text text-bl font-weight-light my-3">¿Cómo podemos combatirlas?</a>
+                            <p>
+                           Una vez descartado que nuestra mascota tenga un problema de salud que lo esté provocando, podemos eliminar esas molestas manchas de forma muy sencilla.
+                            Si el problema reside en el pelo que pueda entrar en los ojos y molestar, debemos recortarlos y despejar la zona para que no siga provocándose la irritación.
+                           </p>
+                            <br>
+                            <br>
+                            <p>Existen numerosos productos en el mercado que las eliminan tales como Holy eyes  y artero pretty eyes. Estos productos tienen un mecanismo de acción muy sencillo, se basa en un antioxidante químico que va eliminando poco a poco las manchas. Cada producto trae unas instrucciones de uso que es recomendable seguir. Es importante tener precaución al utilizarlo para que no entre en contacto directo con los ojos. También debemos mantener la zona lo más seca posible, para que no se siga produciendo esta oxidación.</p>
 						</div>
 					</div>
 					
-					<div aria-label="Page navigation example">
-						<ul class="pagination mt-5">
-							<li class="page-item disabled">
-								<a class="page-link" href="#" tabindex="-1">Anterior</a>
-							</li>
-							<li class="page-item">
-								<a class="page-link" href="#">1</a>
-							</li>
-							<li class="page-item">
-								<a class="page-link" href="#">2</a>
-							</li>
-							<li class="page-item">
-								<a class="page-link" href="#">3</a>
-							</li>
-							<li class="page-item">
-								<a class="page-link" href="#">Siguiente</a>
-							</li>
-						</ul>
+					<p>Como ayuda, podemos dar a nuestro perro para beber agua de mineralización débil, que favorecerá que se creen menos manchas, aunque exista el lagrimeo.
+                    </p>
+                   
+					<div class="comment-top mt-5">
+						<h4>Comentario</h4>
+						<div class="media">
+							<img src="<?= base_url() ?>/assets/images/te1.jpg" alt="" class="img-fluid" />
+							<div class="media-body pt-xl-2 pl-3">
+								<h5 class="mb-2">Joseph Goh</h5>
+								<p>Cualquier tipo de formación profesional para los perros que asumir que tienen una base sólida en términos de sus habilidades básicas. Además, algunos de estos programas son adecuados para razas específicas también.</p>
+
+								<div class="media my-5">
+									<a class="d-flex pr-3" href="#">
+										<img src="<?= base_url() ?>/assets/images/te2.jpg" alt="" class="img-fluid" />
+									</a>
+									<div class="media-body pt-xl-2">
+										<h5 class="mb-2">Richard Spark</h5>
+										<p>Hola, podrias proporcionan sobre donde puede llebar a mi perro para recibir el entrenamiento basico, por favor.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="media">
+							<img src="<?= base_url() ?>/assets/images/te3.jpg" alt="" class="img-fluid" />
+							<div class="media-body  pt-xl-2 pl-3">
+								<h5 class="mb-2">Carlos Quintana</h5>
+								<p>Tienes razon los perros tiene una gran capacida y no todas las personas lo pueden notar.</p>
+							</div>
+						</div>
+						<div class="media mt-5">
+							<img src="<?= base_url() ?>/assets/images/te1.jpg" alt="" class="img-fluid" />
+							<div class="media-body  pt-xl-2 pl-3">
+								<h5 class="mb-2">Julian Perez</h5>
+								<p>Gracias, ahora entiendo la importacia de mi perro.</p>
+							</div>
+						</div>
 					</div>
-					<!-- //left side -->
+					<div class="comment-top mt-5">
+						<h4>Deja un comentario</h4>
+						<div class="comment-bottom agileinfo_mail_grid_right">
+							<form action="#" method="post">
+								<div class="form-group">
+									<input class="form-control" type="text" name="Name" placeholder="Nombre" required="">
+								</div>
+								<div class="form-group">
+									<input class="form-control" type="email" name="Email" placeholder="Correo" required="">
+								</div>
+								<div class="form-group">
+									<input class="form-control" type="text" name="Subject" placeholder="Asunto" required="">
+								</div>
+								<div class="form-group">
+									<textarea class="form-control" name="Message" placeholder="Mensaje..." required=""></textarea>
+								</div>
+								<button type="submit" class="btn btn-primary submit">Enviar</button>
+							</form>
+						</div>
+					</div>
 				</div>
+				<!-- //left side -->
 				<!-- right side -->
 				<div class="col-lg-4 event-right mt-lg-0 mt-sm-5 mt-4">
 					<div class="event-right1">
 						<div class="search1">
 							<h3 class="blog-title text-bl mb-4">Buscar</h3>
 							<form class="form-inline" action="#" method="post">
-								<input class="form-control rounded-0 mr-sm-2" type="search" placeholder="Buscar mas.." name="Search" required>
+								<input class="form-control rounded-0 mr-sm-2" type="search" placeholder="Buscar.." name="Search" required>
 								<button class="btn text-wh rounded-0 mt-3" type="submit">Buscar</button>
 							</form>
 						</div>
@@ -289,6 +279,7 @@
 								<li>
 									<a href="single.html" class="text-bl border">Acuarios</a>
 								</li>
+								
 							</ul>
 						</div>
 					</div>
