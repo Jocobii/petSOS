@@ -1,20 +1,7 @@
-<sect>
 
-
-  <div class="container">
+  <div class="main-body">
     <div class="main-body">
       <link rel="stylesheet" href="assets/css/profile.css">
-
-      <!-- Breadcrumb -->
-      <nav aria-label="breadcrumb" class="main-breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
-          <li class="breadcrumb-item"><a href="javascript:void(0)">User</a></li>
-          <li class="breadcrumb-item active" aria-current="page">User Profile</li>
-        </ol>
-      </nav>
-      <!-- /Breadcrumb -->
-
       <div class="row gutters-sm">
         <div class="col-md-4 mb-3">
           <div class="card">
@@ -116,94 +103,27 @@
           </div>
 
         </div>
-        <?php foreach ($mascotas as $mascota): 
-        if(session('usuario_id') == $mascota['usuario_id']): ?>
-        <!-- INFO --->
-        <div class="col-md-8">
-          <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title"><?=$mascota['nombre_mascota']?></h5>
-              <h6 class="card-subtitle mb-2 text-muted"><?=$mascota['mascota_nacimiento']?></h6>
-              <p class="card-text"><?=$mascota['mascota_descripcion']?></p>
-              <input id="botonAdoptar" onClick="location.href='<?= base_url() ?>/Mascotas/perfilMascota/<?= $mascota['mascota_id'] ?>'" type="submit" value="Ver Mas" class="btn btn-success">
-            </div>
-          </div>
+
+        <?php foreach ($mascotas as $mascota) :
+          if (session('usuario_id') == $mascota['usuario_id']) : ?>
+            <!-- INFO --->
+              <div>
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title"><?= $mascota['nombre_mascota'] ?></h5>
+                  <h6 class="card-subtitle mb-2 text-muted"><?= $mascota['mascota_nacimiento'] ?></h6>
+                  <p class="card-text"><?= $mascota['mascota_descripcion'] ?></p>
+                  <input id="botonAdoptar" onClick="location.href='<?= base_url() ?>/Mascotas/perfilMascota/<?= $mascota['mascota_id'] ?>'" type="submit" value="Ver Mas" class="btn btn-success">
+                </div>
+              </div>
+              </div>
           <?php endif;
-          endforeach;?> 
-
-          <!-- FORMULARY --->
-          <div class="card mb-3" id="formulario" style="display:none;">
-            <div class="card-body">
-              <center>
-                <H4>Dar en Adopcion</H4>
-              </center>
-              <br>
-              <form>
-                <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <label for="inputName4">Nombre</label>
-                    <input type="text" class="form-control" id="inputName4">
-                  </div>
-                  <div class="form-group col-md-6">
-                    <label for="inputRaza">Raza</label>
-                    <input type="text" class="form-control" id="inputRaza4">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="exampleFormControlDescription">Descripcion</label>
-                  <textarea class="form-control" id="description" rows="3"></textarea>
-                </div>
-                <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <label for="inputAge">Edad</label>
-                    <input type="text" class="form-control" id="inputAge">
-                  </div>
-                  <div class="form-group col-md-4">
-                    <label for="inputType">Tipo de Mascota</label>
-                    <select id="inputType" class="form-control">
-                      <option selected>Choose...</option>
-                      <option>...</option>
-                    </select>
-                  </div>
-                  <div class="form-group col-md-2">
-                    <label for="inputSex">Genero</label>
-                    <select id="inputSex" class="form-control">
-                      <option selected>Choose...</option>
-                      <option>...</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputImagen">Subir Imagen</label>
-                  <input type="file" class="form-control-file" id="imagen">
-                </div>
-                <center>
-                  <div class="form-group">
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" id="gridCheck">
-                      <label class="form-check-label" for="gridCheck">
-                        Estoy deacuerdo con los Terminos y Condiciones del Sitio
-                      </label>
-                    </div>
-                  </div>
-                  <button type="submit" class="btn btn-primary">Dar en Adocion</button>
-                  <button type="submit" class="btn btn-primary" onclick="Ocultar()">Cancelar</button>
-                </center>
-            </div>
-            </form>
-          </div>
-
-        </div>
+        endforeach; ?>
+            
       </div>
     </div>
   </div>
-
-
-
-
-</sect>
-<br>
-<br>
+  <br>
 <script>
   function Mostrar() {
     var intro = document.getElementById('formulario');

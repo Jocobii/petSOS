@@ -13,11 +13,19 @@
                     <div class="d-flex flex-column align-items-center text-center">
                       <img src="<?= $mascotaD['imagen']; ?>" class="rounded-circle" width="150">
                       <div class="mt-3">
-                        <h4> <?= $mascotaD['nombre']." ". $mascotaD['apellido']; ?></h4>
+                        <h4> <?= $mascotaD['nombre'] . " " . $mascotaD['apellido']; ?></h4>
 
-                        <p class="text-secondary mb-1">Miembro desdel <?= $mascotaD['fecha_registro']; ?></p>
+                        <p class="text-secondary mb-1">Miembro desde <?= $mascotaD['fecha_registro']; ?></p>
+                        <?php
+                        if (session('usuario_id') == $mascotaD['usuario_id']) : ?>
+                          
+                        <?php elseif (session('usuario_id') == null) : ?>
+                          
+                        <?php elseif (session('usuario_id') != $mascotaD['usuario_id']) : ?>
+                          <button class="btn btn-outline-primary">Enviar Mensaje</button>
 
-                        <button class="btn btn-outline-primary">Enviar Mensaje</button>
+                        <?php endif; ?>
+                        
                       </div>
                     </div>
                   </div>
@@ -182,28 +190,25 @@
                 </div>
                 <div class="d-flex flex-column align-items-center text-center">
                   <div class="mt-3">
-                    <?php 
-                    if(session('usuario_id') == $mascotaD['mascota_id']):?>
-                    <a href="<?= base_url()?>/perfil" class="btn btn-outline-success">Aceptar</a>
-                    <?php elseif(session('usuario_id') == null) : ?>
-                    <a href="<?= base_url()?>/login" class="nav-item nav-link">Login</a>
-                    <?php elseif(session('usuario_id') != $mascotaD['mascota_id']):?>
-                      <button type="button" class="btn btn-outline-success">Adoptar</button>
-                   
-                    <?php endif;?>  
+                    <?php
+                    if (session('usuario_id') == $mascotaD['mascota_id']) : ?>
+                      <a href="<?= base_url() ?>/perfil" class="btn btn-outline-success">Aceptar</a>
+                    <?php elseif (session('usuario_id') == null) : ?>
+                      <a href="<?= base_url() ?>/login" class="nav-item nav-link">Login</a>
+                    <?php elseif (session('usuario_id') != $mascotaD['mascota_id']) : ?>
+    
+                      <input id="botonAdoptar" onClick="location.href='<?= base_url() ?>/Mascotas/adoptarMascota/<?= $mascota['mascota_id'] ?>'" type="submit" value="Adoptar" class="btn btn-outline-success"><?php endif; ?>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-
-
+<br>
+<br>  
   <?php
         break;
       } else {
-        
       }
 
     endforeach;

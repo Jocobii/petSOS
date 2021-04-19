@@ -21,7 +21,7 @@ class Perfil extends BaseController
 			'mascotas' => $mascotas
 		)).
 		
-        view('inicio/footer');
+        view('inicio/footer2');
 		return $Inicio ;
 	}
 

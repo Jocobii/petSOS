@@ -35,7 +35,7 @@ class Mascotas extends BaseController
 			'idMascotaSelect' => $idmascota
 			
 		)).
-		view('inicio/footer');
+		view('inicio/footer2');
 		return $Inicio;
 	}
 
@@ -50,5 +50,35 @@ class Mascotas extends BaseController
 
 		$mascotaDatosCompletos = $builder->get();
 		return $mascotaDatosCompletos->getResultArray();
+	}
+
+	public function adoptarMascota($idmascota)
+	{
+		$db = db_connect();
+		$builder = $db -> table('direccion d');
+		$builder -> select('*');
+		$builder->join('usuario u', 'd.usuario_id = u.usuario_id');
+		$mascotaDatosCompletos = $builder->get();
+		$direccionUsuarios = $mascotaDatosCompletos->getResultArray();
+
+		$mascota1 = new MascotaModel();
+		$mascotas = $mascota1->findAll();
+		$usuario = new UsuarioModel();
+		$usuarios = $usuario->findAll();
+		$datosMascota = $this->datosMascota();
+		$Inicio =
+        view('inicio/header').
+		view('inicio/test',array(
+			'mascotaDatos' => $datosMascota
+		)).
+		view('inicio/adopcion',array(
+			'mascotas' => $mascotas,
+			'usuarios'=> $usuarios,
+			'idMascotaSelect' => $idmascota,
+			'direccionUsuarios' =>$direccionUsuarios
+			
+		)).
+		view('inicio/footer2');
+		return $Inicio;
 	}
 }

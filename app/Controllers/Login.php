@@ -57,8 +57,7 @@ class Login extends BaseController
 			view('inicio/carrosel').
 			view('inicio/video').
 			view('inicio/blog').
-			view('inicio/minifooter').
-			view('inicio/footer');
+			view('inicio/footer2');
 				return $Inicio;
 						
 		}else{
